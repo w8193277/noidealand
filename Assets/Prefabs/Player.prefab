@@ -1,0 +1,397 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 81: {fileID: 8100002}
+  - 20: {fileID: 2000000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: FPSCamera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 143: {fileID: 14300000}
+  - 114: {fileID: 11400008}
+  - 114: {fileID: 11400004}
+  - 114: {fileID: 11400006}
+  - 82: {fileID: 8200000}
+  - 81: {fileID: 8100000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400010}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400000}
+  m_Father: {fileID: 0}
+--- !u!20 &2000000
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .100000001
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_HDR: 0
+--- !u!81 &8100000
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+--- !u!81 &8100002
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+--- !u!82 &8200000
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f979aab15a1db0147b84a54996a04051, type: 3}
+  m_Name: 
+  _Volume: .800000012
+  SurfaceTypes:
+  - RandomPitch: {x: 1, y: 1}
+    Foldout: 1
+    SoundsFoldout: 1
+    TexturesFoldout: 1
+    _Volume: .800000012
+    SurfaceName: Default
+    Sounds:
+    - {fileID: 8300000, guid: 6623086340ea13f4997dd1d7cb2bd1e9, type: 3}
+    - {fileID: 8300000, guid: 3d8c94bbd4c47cc44aa4473e89f789c8, type: 3}
+    - {fileID: 8300000, guid: 4be34e5d1127eb2418457795762ffd2f, type: 3}
+    - {fileID: 8300000, guid: 193e9e8706ed51848b8f6378e79f52fe, type: 3}
+    Textures:
+    - {fileID: 2800000, guid: 5f650638bc16b404ca62dd0c6efab0d4, type: 3}
+    - {fileID: 2800000, guid: ba30758b637475b43994d884cbbcba37, type: 3}
+    - {fileID: 2800000, guid: f3b832fa9f7d6cc41a35799b165cab24, type: 3}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 561ab4563d919484eb7f161f44a9bae1, type: 3}
+  m_Name: 
+  Persist: 0
+  EventHandler: {fileID: 0}
+  States:
+  - TypeName: vp_FPCamera
+    Name: Run
+    TextAsset: {fileID: 4900000, guid: a49d7d347fc36004f9145afcd07743b6, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPCamera
+    Name: Climb
+    TextAsset: {fileID: 4900000, guid: 8546999ce87145b498e7931406a20e05, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPCamera
+    Name: Crouch
+    TextAsset: {fileID: 4900000, guid: 032c9dd3bcc307843b2394d4c2fe83cb, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPCamera
+    Name: Dead
+    TextAsset: {fileID: 4900000, guid: 38de599662e0c98498eae7245130854e, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPCamera
+    Name: Slide
+    TextAsset: {fileID: 4900000, guid: 29d8503c3efc7f34896741b33149c808, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPCamera
+    Name: SlideFast
+    TextAsset: {fileID: 4900000, guid: 75f3415b773978047850838dcb163df3, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPCamera
+    Name: Freeze
+    TextAsset: {fileID: 4900000, guid: c36f12515c5249f44a6f82892b2162d5, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPCamera
+    Name: Default
+    TextAsset: {fileID: 0}
+    StatesToBlock: 
+  Children: []
+  Siblings: []
+  Family: []
+  Renderers: []
+  AudioSources: []
+  FPController: {fileID: 0}
+  MouseSensitivity: {x: 5, y: 5}
+  MouseSmoothSteps: 10
+  MouseSmoothWeight: .5
+  MouseAcceleration: 0
+  MouseAccelerationThreshold: .400000006
+  RenderingFieldOfView: 60
+  RenderingZoomDamping: .200000003
+  PositionOffset: {x: 0, y: 1.75, z: .100000001}
+  PositionGroundLimit: .100000001
+  PositionSpringStiffness: .00999999978
+  PositionSpringDamping: .25
+  PositionSpring2Stiffness: .949999988
+  PositionSpring2Damping: .25
+  PositionKneeling: .0250000004
+  PositionKneelingSoftness: 1
+  PositionEarthQuakeFactor: 1
+  RotationPitchLimit: {x: 90, y: -90}
+  RotationYawLimit: {x: -360, y: 360}
+  RotationSpringStiffness: .00999999978
+  RotationSpringDamping: .25
+  RotationKneeling: .0250000004
+  RotationKneelingSoftness: 1
+  RotationStrafeRoll: .00999999978
+  RotationEarthQuakeFactor: 0
+  ShakeSpeed: 0
+  ShakeAmplitude: {x: 10, y: 10, z: 0}
+  BobRate: {x: 0, y: 1.39999998, z: 0, w: .699999988}
+  BobAmplitude: {x: 0, y: .25, z: 0, w: .5}
+  BobInputVelocityScale: 1
+  BobMaxInputVelocity: 100
+  BobRequireGroundContact: 1
+  BobStepThreshold: 10
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88883264773134c46b1abbdab4fac688, type: 3}
+  m_Name: 
+  Player: {fileID: 0}
+  MouseCursorZones: []
+  ForceCursor: 0
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cde02eee3432894dbdd353805425857, type: 3}
+  m_Name: 
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec636a6083366f141a437d276cd72f43, type: 3}
+  m_Name: 
+  Persist: 0
+  EventHandler: {fileID: 0}
+  States:
+  - TypeName: vp_FPController
+    Name: Run
+    TextAsset: {fileID: 4900000, guid: 7f23a266a7df6a240951c31fe94f09f2, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPController
+    Name: Crouch
+    TextAsset: {fileID: 4900000, guid: f64143605db1a5945bfc75853a988da6, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPController
+    Name: Dead
+    TextAsset: {fileID: 4900000, guid: d03eb24c28bcab348ae1e30e71a19694, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPController
+    Name: Climb
+    TextAsset: {fileID: 4900000, guid: 359948b378986a442af15a5dec7b4ce3, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPController
+    Name: Default
+    TextAsset: {fileID: 0}
+    StatesToBlock: 
+  Children: []
+  Siblings: []
+  Family: []
+  Renderers: []
+  AudioSources: []
+  MotorAcceleration: .180000007
+  MotorDamping: .170000002
+  MotorAirSpeed: .349999994
+  MotorSlopeSpeedUp: 1
+  MotorSlopeSpeedDown: 1
+  MotorFreeFly: 0
+  MotorJumpForce: .25999999
+  MotorJumpForceDamping: .0799999982
+  MotorJumpForceHold: 0
+  MotorJumpForceHoldDamping: 0
+  PhysicsForceDamping: .0500000007
+  PhysicsPushForce: 5
+  PhysicsGravityModifier: .200000003
+  PhysicsSlopeSlideLimit: 30
+  PhysicsSlopeSlidiness: .150000006
+  PhysicsWallBounce: 0
+  PhysicsWallFriction: 0
+  PhysicsHasCollisionTrigger: 1
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fa3bde998d3df448685ec23575befc, type: 3}
+  m_Name: 
+  consoleSkin: {fileID: 11400000, guid: 16a27e9ca9f88f0408fb1e90ffbb235e, type: 2}
+  _characterController: {fileID: 14300000}
+  consoleRect:
+    serializedVersion: 2
+    x: 20
+    y: 20
+    width: 230
+    height: 160
+--- !u!143 &14300000
+CharacterController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: .5
+  m_SlopeLimit: 45
+  m_StepOffset: .300000012
+  m_SkinWidth: .0799999982
+  m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100002}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
