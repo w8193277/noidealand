@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2009978584, guid: b85466ba1f20f9a478e9c8dd237985ea, type: 3}
+  m_Name: DefaultData
+  fontSize: 12
+  tokenDefBoldStates:
+  - DefaultText|2
+  - Word|2
+  - Word,Keyword|2
+  - Word,Modifier|2
+  - Word,PrimitiveType|2
+  - Word,APIToken,Type|2
+  - String|2
+  - String,CharString|2
+  - Comment,SingleLine|2
+  - Comment,Block,Contained|2
+  - Comment,Block,Start|2
+  - Comment,Block,End|2
+  - Number,Double|2
+  - Number,Float|2
+  - Number,Int32|2
+  - Number,Int64|2
+  - Number|2
+  - PreProcess|2
+  - WhiteSpace|2
+  - WhiteSpace,Tab|2
+  - LineEnd|2
+  - Dot|2
+  tabSize: 4
+  forceDynamicFont35: 1
+  font: {fileID: 12800000, guid: 77774e5e3585505409eb72c1c13ab343, type: 3}
+  boldFont: {fileID: 12800000, guid: 005b1bdf28bb05546963098101e542e3, type: 3}
+  desiredFontPath: BitstreamVeraMono/BitstreamVeraMono.ttf

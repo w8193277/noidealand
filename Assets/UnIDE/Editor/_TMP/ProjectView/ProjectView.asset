@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 224943835, guid: b85466ba1f20f9a478e9c8dd237985ea, type: 3}
+  m_Name: ProjectView
+  assetPath: Assets/UnIDE/Editor/_TMP/ProjectView/ProjectView.asset
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  assetsFolder:
+    childern: []
+    isFolder: 0
+    isStub: 0
+    expanded: 0
+    path: 
+    name: 
+    nameNoExt: 
+    extension: 
+    type: 0
+  selectedItem:
+    childern: []
+    isFolder: 0
+    isStub: 0
+    expanded: 0
+    path: 
+    name: 
+    nameNoExt: 
+    extension: 
+    type: 0
+  projectScrollPos: {x: 0, y: 0}
+  projectDesiredSize: {x: 0, y: 0}
+  projectMiddleMouseDownPos: {x: 0, y: 0}
+  projectMiddleMouseDragging: 0
+  mousePosition: {x: 0, y: 0}
+  sepSliderValue: 200
+  wantsFileSearchUpdate: 0
+  useFileSearchTerm: 0
+  fileSearchTerm: 
+  fileSearchFildIsFocused: 0
+  searchedVisibleFileList: []
+  _visibleFileList: []
+  baseDir: Assets
+  fileScrollPos: {x: 0, y: 0}
+  folderRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  fileRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
