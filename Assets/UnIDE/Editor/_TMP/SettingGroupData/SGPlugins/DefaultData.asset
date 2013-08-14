@@ -13,10 +13,9 @@ MonoBehaviour:
   initialized: 1
   knownPlugins:
   - UIDE.Plugins.AutoComplete.AutoComplete
-  - UIDE.Plugins.ErrorTracking.ErrorTracking
   - UIDE.Plugins.FindAndReplace.FindAndReplace
   - UIDE.Plugins.UnityAPISearch.UnityAPISearch
   - UIDE.SyntaxRules.Shared.SyntaxRuleCSharpUnityscript
   - UIDE.SyntaxRules.Generic.SyntaxRuleGeneric
   - UIDE.Plugins.InlineErrorHighlighter.InlineErrorHighlighter
-  knownPluginEnableStates: 01010101010101
+  knownPluginEnableStates: 010101010101

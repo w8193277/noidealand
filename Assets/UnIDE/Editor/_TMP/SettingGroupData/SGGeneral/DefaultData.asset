@@ -18,7 +18,7 @@ MonoBehaviour:
   projectWindowDoubleClick: 1
   useRealtimeErrorHighlighting: 0
   openFiles:
-  - Assets/Core/C#/LightToggle.cs
+  - Assets/UltimateFPS/Scripts/Presets/Standard/Camera/CameraRun.txt
   supportedFileTypes:
   - cs
   - js
