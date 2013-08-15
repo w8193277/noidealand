@@ -6,9 +6,21 @@ using UnityEngine;
 using System.Collections;
 namespace Managers{
 	public class KSGameManager : MonoBehaviour {
-		//public float _FOV = 90.0f;
+		public bool _hideCursor;
+		public KeyCode menuKey;
 	    void LateUpdate() {
-	        //Camera.main.fieldOfView = _FOV;
+	    	if(!_hideCursor){
+	    		return;
+	    	}
+	    	if(_hideCursor){
+	    		Screen.lockCursor = true;
+	    		if(Input.GetKeyDown(menuKey)){
+					Screen.lockCursor = true;
+				}
+				if(Input.GetKeyDown(menuKey)){
+					Screen.showCursor = true;
+				}
+	    	}
 	    }
 	}
 }

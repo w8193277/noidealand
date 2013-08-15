@@ -459,7 +459,7 @@ private function ApplyGravityAndJumping (velocity : Vector3) {
 }
 
 function OnControllerColliderHit (hit : ControllerColliderHit) {
-	if (hit.normal.y > 0 && hit.normal.y > groundNormal.y && hit.moveDirection.y < 0) {
+	/*if (hit.normal.y > 0 && hit.normal.y > groundNormal.y && hit.moveDirection.y < 0) {
 		if ((hit.point - movement.lastHitPoint).sqrMagnitude > 0.001 || lastGroundNormal == Vector3.zero)
 			groundNormal = hit.normal;
 		else
@@ -468,7 +468,7 @@ function OnControllerColliderHit (hit : ControllerColliderHit) {
 		movingPlatform.hitPlatform = hit.collider.transform;
 		movement.hitPoint = hit.point;
 		movement.frameVelocity = Vector3.zero;
-	}
+	}*/
 }
 
 private function SubtractNewPlatformVelocity () {
