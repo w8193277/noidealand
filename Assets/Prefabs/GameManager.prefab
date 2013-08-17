@@ -42,11 +42,14 @@ MonoBehaviour:
   _hideCursor: 1
   _showMenu: 0
   menuKey: 27
-  menuPositionY: 0
-  menuPositionX: 0
+  acceptKey: 0
+  volumeLevel: .5
+  saveName: C:/Users/Nuke/AppData/LocalLow/DefaultCompany/noidealandSAV01.ini
+  extensionType: .svdt
   _menuSkin: {fileID: 11400000, guid: 4c071f3612acec54187339ea99da0c75, type: 2}
   _cameraScript: {fileID: 0}
   _controller: {fileID: 0}
+  listener: {fileID: 0}
   levelBounds: []
   player: {fileID: 0}
 --- !u!114 &11400002
@@ -59,7 +62,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33a0d0e9d2913ee4ea19c33c35fc9cf9, type: 3}
   m_Name: 
-  show: 1
+  show: 0
   showFPS: 1
   showInEditor: 1
 --- !u!114 &11400004

@@ -46,7 +46,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: .100000001
+  near clip plane: .00999999978
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -77,10 +77,10 @@ MonoBehaviour:
   m_Name: 
   target: {fileID: 0}
   targetHeight: 1.70000005
-  distance: 12
-  offsetFromWall: .100000001
-  maxDistance: 20
-  minDistance: .600000024
+  distance: 20
+  offsetFromWall: .5
+  maxDistance: 40
+  minDistance: 6
   xSpeed: 200
   ySpeed: 200
   yMinLimit: -80

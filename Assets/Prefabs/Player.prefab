@@ -283,7 +283,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: 1}
+  m_LocalPosition: {x: .134765625, y: -.177993774, z: .163024902}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400002}
@@ -294,7 +294,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.1347656, y: 110.177986, z: -815.663025}
+  m_LocalPosition: {x: -15.1347656, y: 138.177994, z: -815.663025}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400092}
@@ -494,7 +494,7 @@ Renderer:
   - {fileID: 2100000, guid: d84cd40a5809bc549a8e53c704b06713, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
+  m_UseLightProbes: 1
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
 --- !u!23 &2300002
@@ -512,7 +512,7 @@ Renderer:
   - {fileID: 2100000, guid: 0d40ee0df2e1ec0488bdd754aa14ae15, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
+  m_UseLightProbes: 1
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
 --- !u!23 &2300004
@@ -530,7 +530,7 @@ Renderer:
   - {fileID: 2100000, guid: 9031c0865c91e244c82f60361eb8b61d, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
+  m_UseLightProbes: 1
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
 --- !u!23 &2300006
@@ -548,7 +548,7 @@ Renderer:
   - {fileID: 2100000, guid: e92b1077295f69944859c68ee6af7a79, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
+  m_UseLightProbes: 1
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
 --- !u!23 &2300008
@@ -566,7 +566,7 @@ Renderer:
   - {fileID: 2100000, guid: 64eed518749aec04fb88ffc3b259eb14, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
+  m_UseLightProbes: 1
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
 --- !u!23 &2300010
@@ -584,7 +584,7 @@ Renderer:
   - {fileID: 2100000, guid: 9031c0865c91e244c82f60361eb8b61d, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
+  m_UseLightProbes: 1
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
 --- !u!23 &2300012
@@ -602,7 +602,7 @@ Renderer:
   - {fileID: 2100000, guid: e92b1077295f69944859c68ee6af7a79, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
+  m_UseLightProbes: 1
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
 --- !u!33 &3300000
@@ -718,10 +718,10 @@ Animator:
   m_GameObject: {fileID: 100030}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c3be6ec74b551e543ade1916ee5d06fd, type: 2}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
-  m_AnimatePhysics: 0
+  m_AnimatePhysics: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -732,15 +732,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1d5ac211a643e447ca78c2d794a16381, type: 3}
   m_Name: 
-  idleAnimation: {fileID: 0}
-  walkAnimation: {fileID: 0}
-  runAnimation: {fileID: 0}
-  jumpPoseAnimation: {fileID: 0}
-  walkMaxAnimationSpeed: .75
-  trotMaxAnimationSpeed: 1
-  runMaxAnimationSpeed: 1
-  jumpAnimationSpeed: 1.14999998
-  landAnimationSpeed: 1
   walkSpeed: 20
   trotSpeed: 30
   runSpeed: 40

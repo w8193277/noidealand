@@ -1,7 +1,7 @@
 
 // Require a character controller to be attached to the same game object
 @script RequireComponent(CharacterController)
-
+/*
 public var idleAnimation : AnimationClip;
 public var walkAnimation : AnimationClip;
 public var runAnimation : AnimationClip;
@@ -14,7 +14,7 @@ public var jumpAnimationSpeed : float = 1.15;
 public var landAnimationSpeed : float = 1.0;
 
 private var _animation : Animation;
-
+*/
 enum CharacterState {
 	Idle = 0,
 	Walking = 1,
@@ -94,16 +94,16 @@ function Awake ()
 {
 	moveDirection = transform.TransformDirection(Vector3.forward);
 	
-	_animation = GetComponent(Animation);
-	if(!_animation)
-		Debug.Log("The character you would like to control doesn't have animations. Moving her might look weird.");
+	//_animation = GetComponent(Animation);
+	//if(!_animation)
+		//Debug.Log("The character you would like to control doesn't have animations. Moving her might look weird.");
 	
 	/*
 public var idleAnimation : AnimationClip;
 public var walkAnimation : AnimationClip;
 public var runAnimation : AnimationClip;
 public var jumpPoseAnimation : AnimationClip;	
-	*/
+	*//*
 	if(!idleAnimation) {
 		_animation = null;
 		Debug.Log("No idle animation found. Turning off animations.");
@@ -120,7 +120,7 @@ public var jumpPoseAnimation : AnimationClip;
 		_animation = null;
 		Debug.Log("No jump animation found and the character has canJump enabled. Turning off animations.");
 	}
-			
+			*/
 }
 
 
@@ -318,7 +318,7 @@ function Update() {
 	collisionFlags = controller.Move(movement);
 	
 	// ANIMATION sector
-	if(_animation) {
+	/*if(_animation) {
 		if(_characterState == CharacterState.Jumping) 
 		{
 			if(!jumpingReachedApex) {
@@ -355,7 +355,7 @@ function Update() {
 		}
 	}
 	// ANIMATION sector
-	
+	*/
 	// Set rotation to the move direction
 	if (IsGrounded())
 	{

@@ -16,7 +16,7 @@ public class Console : MonoBehaviour {
 	
 	private bool 				showConsole;
 	private Vector2 			scrollPosition; // scroll position of the content scroll view
-	public Rect					consoleRect = new Rect(20,20,Screen.width,Screen.height / 2);
+	public Rect					consoleRect = new Rect(0,0,Screen.width,Screen.height / 2);
 	
 	// values to check for commands, if they arent listed here... they arent valid.
 	private string				TESTLIGHT = "testlight"; // the value for the "testlight" command, which spawns a spot light with a large outer angle.
