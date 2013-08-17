@@ -43,10 +43,14 @@ MonoBehaviour:
   _showMenu: 0
   menuKey: 27
   acceptKey: 0
-  volumeLevel: .5
-  saveName: C:/Users/Nuke/AppData/LocalLow/DefaultCompany/noidealandSAV01.ini
-  extensionType: .svdt
+  volumeLevel: 0
+  saveName: SAV01
+  configExtensionType: .cdft
+  saveExtensionType: .svdt
+  saveConfigPath: /Config/
+  saveGamePath: /SaveGame/
   _menuSkin: {fileID: 11400000, guid: 4c071f3612acec54187339ea99da0c75, type: 2}
+  _player: {fileID: 0}
   _cameraScript: {fileID: 0}
   _controller: {fileID: 0}
   listener: {fileID: 0}
