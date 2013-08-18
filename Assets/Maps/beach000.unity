@@ -74,38 +74,91 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 0}
---- !u!1 &16895641
+--- !u!1 &9645466
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100028, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabParentObject: {fileID: 100136, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 16895642}
-  m_Layer: 0
-  m_Name: polySurface1
+  - 4: {fileID: 9645467}
+  m_Layer: 8
+  m_Name: skye_control_wing2left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &16895642
+--- !u!4 &9645467
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400028, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 16895641}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 6.31088724e-30, z: 0}
-  m_LocalScale: {x: .086995855, y: .086995855, z: .086995855}
+  m_PrefabParentObject: {fileID: 400076, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 9645466}
+  m_LocalRotation: {x: -.00380161544, y: .0870727897, z: -.0434533991, w: .99524653}
+  m_LocalPosition: {x: -4.20195436, y: 5.78000832, z: .8474015}
+  m_LocalScale: {x: .999999881, y: .999999881, z: .999999762}
   m_Children:
-  - {fileID: 546854561}
-  m_Father: {fileID: 245557830}
+  - {fileID: 1041332026}
+  m_Father: {fileID: 1576598328}
+--- !u!1 &42852937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100182, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 42852938}
+  m_Layer: 8
+  m_Name: IK Chain003
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &42852938
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400122, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 42852937}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 4.37113883e-08}
+  m_LocalPosition: {x: -.00949263573, y: .10887289, z: .0316634178}
+  m_LocalScale: {x: -.188083231, y: -.188083231, z: -.188083231}
+  m_Children: []
+  m_Father: {fileID: 178740493}
+--- !u!1 &47077254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 47077255}
+  m_Layer: 8
+  m_Name: skye_bone_foot_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &47077255
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 47077254}
+  m_LocalRotation: {x: -.204235002, y: .07413923, z: -.795837522, w: .56518501}
+  m_LocalPosition: {x: -2.26777554, y: 2.43186951e-05, z: 9.53674316e-07}
+  m_LocalScale: {x: 1.00000048, y: 1.00000012, z: 1.00000024}
+  m_Children:
+  - {fileID: 182569908}
+  m_Father: {fileID: 491999904}
 --- !u!1 &60506139
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100092, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 60506140}
@@ -121,7 +174,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400092, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabInternal: {fileID: 101813399}
   m_GameObject: {fileID: 60506139}
   m_LocalRotation: {x: .707106709, y: 0, z: 0, w: .707106888}
   m_LocalPosition: {x: 0, y: 9, z: 0}
@@ -133,7 +186,7 @@ Projector:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11900000, guid: c74600ed389654845a198758b41a7027,
     type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabInternal: {fileID: 101813399}
   m_GameObject: {fileID: 60506139}
   m_Enabled: 1
   serializedVersion: 2
@@ -147,61 +200,207 @@ Projector:
   m_IgnoreLayers:
     serializedVersion: 2
     m_Bits: 256
---- !u!1 &61107336
+--- !u!1 &88781787
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100010, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabParentObject: {fileID: 100184, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 61107337}
-  - 33: {fileID: 61107339}
-  - 23: {fileID: 61107338}
-  m_Layer: 0
-  m_Name: polySurface18
+  - 4: {fileID: 88781788}
+  m_Layer: 8
+  m_Name: IK Chain001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &61107337
+--- !u!4 &88781788
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400010, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 61107336}
+  m_PrefabParentObject: {fileID: 400124, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 88781787}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.81469727e-06, y: -1.22513206e-13, z: -20.9837189}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -.013451457, y: .108871937, z: .0316643715}
+  m_LocalScale: {x: .186577931, y: .186577931, z: .186577931}
   m_Children: []
-  m_Father: {fileID: 2022356205}
---- !u!23 &61107338
-Renderer:
+  m_Father: {fileID: 340834434}
+--- !u!1001 &101813399
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300010, guid: c74600ed389654845a198758b41a7027,
-    type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 61107336}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 2100000, guid: 9031c0865c91e244c82f60361eb8b61d, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
---- !u!33 &61107339
-MeshFilter:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -15.1347656
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 138.177994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -815.663025
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_RootGameObject: {fileID: 1562409877}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &114840881
+GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300010, guid: c74600ed389654845a198758b41a7027,
-    type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 61107336}
-  m_Mesh: {fileID: 4300024, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
+  m_PrefabParentObject: {fileID: 100050, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 114840882}
+  m_Layer: 8
+  m_Name: skye_bone_winghand_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &114840882
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400148, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 114840881}
+  m_LocalRotation: {x: -.13815026, y: -.0381308421, z: -.169318408, w: .975085557}
+  m_LocalPosition: {x: -2.86548567, y: 1.43051147e-06, z: -1.1920929e-07}
+  m_LocalScale: {x: 1.00000024, y: .99999994, z: 1.00000012}
+  m_Children:
+  - {fileID: 1027697815}
+  - {fileID: 1472313316}
+  - {fileID: 1190965646}
+  m_Father: {fileID: 1107656444}
+--- !u!1 &131166420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100126, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 131166421}
+  m_Layer: 8
+  m_Name: IK Chain010
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &131166421
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400064, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 131166420}
+  m_LocalRotation: {x: .521333754, y: .379928112, z: -.47771436, w: .596367955}
+  m_LocalPosition: {x: -.0666666031, y: -.0578193665, z: .438486576}
+  m_LocalScale: {x: -.149573296, y: -.149573252, z: -.149573207}
+  m_Children: []
+  m_Father: {fileID: 379616015}
+--- !u!1 &132653889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100104, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 132653890}
+  m_Layer: 8
+  m_Name: skye_bone_head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &132653890
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400040, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 132653889}
+  m_LocalRotation: {x: 6.10022468e-08, y: 3.04495593e-08, z: -.514390647, w: .857555985}
+  m_LocalPosition: {x: -1.62335157, y: 4.76837158e-07, z: 7.58636247e-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1507029652}
+  m_Father: {fileID: 1266305220}
+--- !u!1 &178740492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100212, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 178740493}
+  m_Layer: 8
+  m_Name: skye_control_elbowright
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &178740493
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400212, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 178740492}
+  m_LocalRotation: {x: .707106829, y: -0, z: 0, w: .707106829}
+  m_LocalPosition: {x: .922032952, y: 2.6966548, z: -2.87718201}
+  m_LocalScale: {x: -1, y: -1, z: -1}
+  m_Children:
+  - {fileID: 42852938}
+  m_Father: {fileID: 1700479695}
+--- !u!1 &182569907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 182569908}
+  m_Layer: 8
+  m_Name: skye_bone_footpaw_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &182569908
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 182569907}
+  m_LocalRotation: {x: .205119684, y: .0852012411, z: -.248385802, w: .942852676}
+  m_LocalPosition: {x: -1.76763916, y: -1.74045563e-05, z: -1.1920929e-06}
+  m_LocalScale: {x: .999999762, y: .999999762, z: .999999762}
+  m_Children: []
+  m_Father: {fileID: 47077255}
 --- !u!1 &198131574
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,63 +458,386 @@ MonoBehaviour:
   mShrinkToFit: 1
   mLineWidth: 0
   mMultiline: 1
---- !u!1 &235888216
+--- !u!1 &199645121
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100014, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabParentObject: {fileID: 100112, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 235888217}
-  m_Layer: 0
-  m_Name: polySurface13
+  - 4: {fileID: 199645122}
+  m_Layer: 8
+  m_Name: skye_control_wingelbowright
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &235888217
+--- !u!4 &199645122
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400014, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 235888216}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2022356205}
-  m_Father: {fileID: 1578021408}
---- !u!1 &245557829
+  m_PrefabParentObject: {fileID: 400056, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 199645121}
+  m_LocalRotation: {x: .706433833, y: -.690345466, z: .030843623, w: -.153045937}
+  m_LocalPosition: {x: -1.4464016, y: -2.89546013, z: .389477253}
+  m_LocalScale: {x: 1, y: 1.00000024, z: 1.00000024}
+  m_Children: []
+  m_Father: {fileID: 379616015}
+--- !u!1 &200024636
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100030, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabParentObject: {fileID: 100034, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 245557830}
-  m_Layer: 0
-  m_Name: skye
+  - 4: {fileID: 200024637}
+  m_Layer: 8
+  m_Name: skye_bone_wing3-2_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &245557830
+--- !u!4 &200024637
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400030, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 245557829}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_PrefabParentObject: {fileID: 400140, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 200024636}
+  m_LocalRotation: {x: -.0844348297, y: .0188578255, z: -.106226124, w: .990571141}
+  m_LocalPosition: {x: -3.41423702, y: -4.05311584e-06, z: -9.53674316e-07}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: .999999881}
+  m_Children:
+  - {fileID: 1389309980}
+  m_Father: {fileID: 1190965646}
+--- !u!1 &210621071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100110, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 210621072}
+  m_Layer: 8
+  m_Name: skye_bone_chest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &210621072
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400156, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 210621071}
+  m_LocalRotation: {x: -2.76713354e-08, y: -1.35354881e-07, z: .761963129, w: .647620499}
+  m_LocalPosition: {x: -3.24016809, y: 9.53674316e-07, z: -1.8860581e-07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 16895642}
-  - {fileID: 1623601243}
-  - {fileID: 552849574}
-  - {fileID: 1949246614}
-  m_Father: {fileID: 1562409878}
+  - {fileID: 927942016}
+  - {fileID: 904699159}
+  - {fileID: 1189968892}
+  - {fileID: 495022499}
+  - {fileID: 1843094651}
+  m_Father: {fileID: 1363786776}
+--- !u!1 &229792267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100062, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 229792268}
+  m_Layer: 8
+  m_Name: skye_bone_wing2-3_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &229792268
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400172, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 229792267}
+  m_LocalRotation: {x: -.383460045, y: -.0244962163, z: .158246174, w: .909569442}
+  m_LocalPosition: {x: -3.58489799, y: 1.43051147e-06, z: 0}
+  m_LocalScale: {x: 1.00000024, y: 1.00000012, z: 1}
+  m_Children: []
+  m_Father: {fileID: 652793814}
+--- !u!1 &247287143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100186, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 247287144}
+  - 137: {fileID: 247287145}
+  m_Layer: 8
+  m_Name: skyebody
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &247287144
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400186, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 247287143}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 3.15424156, z: -3.46054983}
+  m_LocalScale: {x: .264782906, y: .202927336, z: .883393824}
+  m_Children: []
+  m_Father: {fileID: 1700479695}
+--- !u!137 &247287145
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: c74600ed389654845a198758b41a7027,
+    type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 247287143}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: eac6a2833d98a6442ab15f2817b94f6c, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 06a638f3fd23d834d839f1b16ed3c092, type: 3}
+  m_Bones:
+  - {fileID: 2073415138}
+  - {fileID: 904699159}
+  - {fileID: 132653890}
+  - {fileID: 927942016}
+  - {fileID: 210621072}
+  - {fileID: 495022499}
+  - {fileID: 1706349052}
+  - {fileID: 1755841611}
+  - {fileID: 1266305220}
+  - {fileID: 1344820197}
+  - {fileID: 1838623961}
+  - {fileID: 1482855634}
+  - {fileID: 1929784643}
+  - {fileID: 1142576767}
+  - {fileID: 1616685835}
+  - {fileID: 1507029652}
+  - {fileID: 1206182414}
+  - {fileID: 705816670}
+  - {fileID: 1466108423}
+  - {fileID: 1210806434}
+  - {fileID: 1092879210}
+  - {fileID: 1888257871}
+  - {fileID: 796513895}
+  - {fileID: 1059307391}
+  - {fileID: 1471872525}
+  - {fileID: 1283452151}
+  - {fileID: 1979951283}
+  - {fileID: 652793814}
+  - {fileID: 229792268}
+  - {fileID: 448198152}
+  - {fileID: 1829875019}
+  - {fileID: 1782988397}
+  - {fileID: 1843094651}
+  - {fileID: 1422233871}
+  - {fileID: 1308955278}
+  - {fileID: 1189968892}
+  - {fileID: 491999904}
+  - {fileID: 808179902}
+  - {fileID: 1330381376}
+  - {fileID: 182569908}
+  - {fileID: 1789086854}
+  - {fileID: 47077255}
+  - {fileID: 1107656444}
+  - {fileID: 114840882}
+  - {fileID: 1190965646}
+  - {fileID: 1472313316}
+  - {fileID: 1027697815}
+  - {fileID: 1389309980}
+  - {fileID: 1012125758}
+  - {fileID: 200024637}
+  - {fileID: 694035340}
+  - {fileID: 975806236}
+  m_RootBone: {fileID: 210621072}
+  m_AABB:
+    m_Center: {x: 4.88645744, y: -5.90018082, z: -6.98566437e-05}
+    m_Extent: {x: 13.5985279, y: 11.1213112, z: 6.52686977}
+  m_DirtyAABB: 0
+--- !u!1 &340834433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100214, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 340834434}
+  m_Layer: 8
+  m_Name: skye_control_elbowleft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &340834434
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400214, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 340834433}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: -.919516921, y: 2.6966548, z: -2.87718177}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 88781788}
+  m_Father: {fileID: 1700479695}
+--- !u!1 &373307119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100142, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 373307120}
+  m_Layer: 8
+  m_Name: IK Chain009
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &373307120
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400080, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 373307119}
+  m_LocalRotation: {x: -.596368074, y: .47771427, z: .379928201, w: .521333635}
+  m_LocalPosition: {x: -.0750641823, y: -.0520973206, z: .469843984}
+  m_LocalScale: {x: .13723211, y: .13723211, z: .13723211}
+  m_Children: []
+  m_Father: {fileID: 1576598328}
+--- !u!1 &376970482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100220, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 376970483}
+  m_Layer: 8
+  m_Name: Line003
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &376970483
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400220, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 376970482}
+  m_LocalRotation: {x: 1.54543116e-08, y: -.707106829, z: 1.54543116e-08, w: .707106829}
+  m_LocalPosition: {x: 0, y: 3.97159076, z: -13.4057159}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1700479695}
+--- !u!1 &379355275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100170, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 379355276}
+  m_Layer: 8
+  m_Name: IK Chain008
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &379355276
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400110, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 379355275}
+  m_LocalRotation: {x: .996161342, y: .087536402, z: -1.70657788e-09, w: -7.36661931e-08}
+  m_LocalPosition: {x: .0252277851, y: .691771507, z: .174760103}
+  m_LocalScale: {x: -.186782748, y: -.131180555, z: -.125860348}
+  m_Children: []
+  m_Father: {fileID: 1205069958}
+--- !u!1 &379616014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100190, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 379616015}
+  m_Layer: 8
+  m_Name: skye_control_wingright
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &379616015
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400190, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 379616014}
+  m_LocalRotation: {x: .790334463, y: -.0691452771, z: -.606444836, w: -.0530571193}
+  m_LocalPosition: {x: 1.62616682, y: 10.4386883, z: -4.89043713}
+  m_LocalScale: {x: -.999999821, y: -.999999881, z: -.999999821}
+  m_Children:
+  - {fileID: 131166421}
+  - {fileID: 2078565914}
+  - {fileID: 951016089}
+  - {fileID: 1964158400}
+  - {fileID: 199645122}
+  m_Father: {fileID: 1700479695}
+--- !u!1 &382263322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100130, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 382263323}
+  m_Layer: 8
+  m_Name: IK Chain012
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &382263323
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400066, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 382263322}
+  m_LocalRotation: {x: -.596368074, y: .477714241, z: .379928201, w: .521333635}
+  m_LocalPosition: {x: -.369784355, y: .311201096, z: .46717906}
+  m_LocalScale: {x: .171875879, y: .171875909, z: .171875909}
+  m_Children: []
+  m_Father: {fileID: 1170941710}
 --- !u!1001 &404792855
 Prefab:
   m_ObjectHideFlags: 0
@@ -440,6 +962,33 @@ Prefab:
   m_RootGameObject: {fileID: 1667328826}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &448198151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100070, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 448198152}
+  m_Layer: 8
+  m_Name: skye_bone_wing1-2_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &448198152
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400176, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 448198151}
+  m_LocalRotation: {x: .21883212, y: .068593964, z: .114203103, w: .966625571}
+  m_LocalPosition: {x: -2.58415318, y: 9.53674316e-07, z: -2.38418579e-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1829875019}
+  m_Father: {fileID: 1471872525}
 --- !u!1 &449917524
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,169 +1072,142 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
---- !u!1 &546854560
+--- !u!1 &491999903
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100020, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabParentObject: {fileID: 100016, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 546854561}
-  m_Layer: 0
-  m_Name: polySurface4
+  - 4: {fileID: 491999904}
+  - 23: {fileID: 491999906}
+  - 33: {fileID: 491999905}
+  m_Layer: 8
+  m_Name: skye_bone_leglower_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &546854561
+--- !u!4 &491999904
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400020, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 546854560}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.81469727e-06, y: 1.22513206e-13, z: 20.9837189}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_PrefabParentObject: {fileID: 400012, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 491999903}
+  m_LocalRotation: {x: .216149285, y: -.104880981, z: .579152942, w: .779013097}
+  m_LocalPosition: {x: -2.41812754, y: 0, z: -1.1920929e-07}
+  m_LocalScale: {x: 1, y: .999999881, z: .999999881}
   m_Children:
-  - {fileID: 1578021408}
-  m_Father: {fileID: 16895642}
---- !u!1 &552849573
-GameObject:
+  - {fileID: 47077255}
+  m_Father: {fileID: 808179902}
+--- !u!33 &491999905
+MeshFilter:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100024, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 552849574}
-  - 33: {fileID: 552849576}
-  - 23: {fileID: 552849575}
-  m_Layer: 0
-  m_Name: polySurface11
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &552849574
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400024, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 552849573}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 245557830}
---- !u!23 &552849575
+  m_PrefabParentObject: {fileID: 3300012, guid: c74600ed389654845a198758b41a7027,
+    type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 491999903}
+  m_Mesh: {fileID: 4300022, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
+--- !u!23 &491999906
 Renderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300002, guid: c74600ed389654845a198758b41a7027,
+  m_PrefabParentObject: {fileID: 2300012, guid: c74600ed389654845a198758b41a7027,
     type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 552849573}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 491999903}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 0d40ee0df2e1ec0488bdd754aa14ae15, type: 2}
+  - {fileID: 2100000, guid: e92b1077295f69944859c68ee6af7a79, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
+  m_UseLightProbes: 1
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
---- !u!33 &552849576
-MeshFilter:
+--- !u!1 &495022498
+GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300002, guid: c74600ed389654845a198758b41a7027,
-    type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 552849573}
-  m_Mesh: {fileID: 4300032, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
---- !u!1001 &580531995
-Prefab:
+  m_PrefabParentObject: {fileID: 100078, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495022499}
+  m_Layer: 8
+  m_Name: skye_bone_wingupper_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &495022499
+Transform:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -15.1347656
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 138.177994
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -815.663025
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_UseLightProbes
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300004, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_UseLightProbes
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_UseLightProbes
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300012, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_UseLightProbes
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300010, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_UseLightProbes
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300006, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_UseLightProbes
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300008, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_UseLightProbes
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 14300000, guid: c74600ed389654845a198758b41a7027, type: 2}
-      propertyPath: m_StepOffset
-      value: .600000024
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 9500000, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_ParentPrefab: {fileID: 100100000, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_RootGameObject: {fileID: 1562409877}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
+  m_PrefabParentObject: {fileID: 400158, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 495022498}
+  m_LocalRotation: {x: -.0949141979, y: .125947237, z: .856594801, w: .491298199}
+  m_LocalPosition: {x: -1.15411615, y: -.249221802, z: .651528835}
+  m_LocalScale: {x: 1, y: 1.00000024, z: .99999994}
+  m_Children:
+  - {fileID: 1092879210}
+  m_Father: {fileID: 210621072}
+--- !u!1 &572452876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100216, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 572452877}
+  m_Layer: 8
+  m_Name: skye_control_chest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &572452877
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400216, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 572452876}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 4.77038574, z: -4.34645081}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1700479695}
+--- !u!1 &574501787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100168, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 574501788}
+  m_Layer: 8
+  m_Name: skye_control_footright
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &574501788
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400108, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 574501787}
+  m_LocalRotation: {x: .342020124, y: -4.17307352e-16, z: 1.51887447e-16, w: .939692616}
+  m_LocalPosition: {x: 2.86102295e-06, y: .739921093, z: -2.84217094e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2064345944}
+  m_Father: {fileID: 1205069958}
 --- !u!1 &589555748
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,6 +1402,85 @@ Mesh:
     m_Extent: {x: 10, y: .911003113, z: 10}
   m_MeshUsageFlags: 0
   m_MeshOptimized: 0
+--- !u!1 &633834858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100144, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 633834859}
+  m_Layer: 8
+  m_Name: Point004
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &633834859
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400082, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 633834858}
+  m_LocalRotation: {x: -.537299514, y: 2.47825707e-08, z: -3.89008505e-08, w: .843391538}
+  m_LocalPosition: {x: -6.70013549e-07, y: -.116402626, z: -.0468978882}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 961728032}
+--- !u!1 &640276334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100028, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 640276335}
+  m_Layer: 8
+  m_Name: Point001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &640276335
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 640276334}
+  m_LocalRotation: {x: .543161452, y: -.452742368, z: -.543161452, w: -.452742368}
+  m_LocalPosition: {x: -2.45366287, y: .00840568542, z: 4.76837158e-07}
+  m_LocalScale: {x: 1, y: 1.00000012, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1706349052}
+--- !u!1 &652793813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100064, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 652793814}
+  m_Layer: 8
+  m_Name: skye_bone_wing2-2_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &652793814
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400154, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 652793813}
+  m_LocalRotation: {x: .123183027, y: .0934695303, z: .0769010782, w: .984974921}
+  m_LocalPosition: {x: -3.29105854, y: 2.38418579e-06, z: 2.38418579e-07}
+  m_LocalScale: {x: .999999881, y: .999999762, z: 1}
+  m_Children:
+  - {fileID: 229792268}
+  m_Father: {fileID: 1888257871}
 --- !u!43 &654670261
 Mesh:
   m_ObjectHideFlags: 0
@@ -1018,6 +1619,86 @@ Mesh:
     m_Extent: {x: 10, y: 9.41100311, z: 10}
   m_MeshUsageFlags: 0
   m_MeshOptimized: 0
+--- !u!1 &671817723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100196, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 671817724}
+  m_Layer: 8
+  m_Name: skye_control_tail2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &671817724
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400196, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 671817723}
+  m_LocalRotation: {x: -.173648193, y: 0, z: -0, w: .984807789}
+  m_LocalPosition: {x: 0, y: 4.11880779, z: -16.5629311}
+  m_LocalScale: {x: 1, y: .99999994, z: 1}
+  m_Children:
+  - {fileID: 1849667989}
+  m_Father: {fileID: 1700479695}
+--- !u!1 &694035339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100040, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 694035340}
+  m_Layer: 8
+  m_Name: skye_bone_wing_2-2_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &694035340
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400128, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 694035339}
+  m_LocalRotation: {x: -.123182483, y: .0934843495, z: -.076913394, w: .984972656}
+  m_LocalPosition: {x: -3.29105759, y: -2.38418579e-06, z: 4.76837158e-07}
+  m_LocalScale: {x: 1.00000024, y: 1.00000012, z: .999999881}
+  m_Children:
+  - {fileID: 1012125758}
+  m_Father: {fileID: 1472313316}
+--- !u!1 &705816669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100090, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 705816670}
+  m_Layer: 8
+  m_Name: skye_bone_handpaw_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &705816670
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400030, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 705816669}
+  m_LocalRotation: {x: -.158467755, y: .0148405246, z: .364478678, w: .917509139}
+  m_LocalPosition: {x: -.649827242, y: 1.90734863e-06, z: -3.57627869e-07}
+  m_LocalScale: {x: .99999994, y: .99999994, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1206182414}
 --- !u!1 &736513637
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1837,87 @@ MonoBehaviour:
   manualHeight: 720
   minimumHeight: 320
   maximumHeight: 1536
+--- !u!1 &796513894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100060, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 796513895}
+  m_Layer: 8
+  m_Name: skye_bone_wing3-1_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &796513895
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400166, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 796513894}
+  m_LocalRotation: {x: .0320991091, y: .0368673988, z: -.0441413857, w: .997828662}
+  m_LocalPosition: {x: -.82875824, y: .291271448, z: .0110740662}
+  m_LocalScale: {x: 1.00000012, y: .99999994, z: 1.00000012}
+  m_Children:
+  - {fileID: 1283452151}
+  m_Father: {fileID: 1059307391}
+--- !u!1 &808179901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 808179902}
+  m_Layer: 8
+  m_Name: skye_bone_legupper_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &808179902
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400126, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 808179901}
+  m_LocalRotation: {x: .494895637, y: .860418618, z: .0968726128, w: -.0733067468}
+  m_LocalPosition: {x: -2.46589518, y: -.332181931, z: -.673675537}
+  m_LocalScale: {x: 1, y: .99999994, z: 1}
+  m_Children:
+  - {fileID: 491999904}
+  m_Father: {fileID: 1706349052}
+--- !u!1 &837896458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100178, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 837896459}
+  m_Layer: 8
+  m_Name: skye_control_footleft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &837896459
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400118, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 837896458}
+  m_LocalRotation: {x: .342020154, y: 0, z: -0, w: .939692616}
+  m_LocalPosition: {x: 2.86102295e-06, y: .73992157, z: 0}
+  m_LocalScale: {x: 1, y: .99999994, z: 1}
+  m_Children:
+  - {fileID: 971332614}
+  m_Father: {fileID: 1104721051}
 --- !u!1 &854266057
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,11 +1998,37 @@ MonoBehaviour:
   cubeSize: {x: 5, y: 5, z: 5}
   lineTarget: {fileID: 0}
   iconName: G
+--- !u!1 &861948206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100158, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 861948207}
+  m_Layer: 8
+  m_Name: skye_control_handleft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &861948207
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400098, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 861948206}
+  m_LocalRotation: {x: .382683426, y: 0, z: -0, w: .923879564}
+  m_LocalPosition: {x: 2.74181366e-06, y: .53218317, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1171339973}
 --- !u!1 &870077515
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100000, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 870077516}
@@ -1256,7 +2044,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabInternal: {fileID: 101813399}
   m_GameObject: {fileID: 870077515}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: .134765625, y: -.177993774, z: .163024902}
@@ -1268,7 +2056,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: c74600ed389654845a198758b41a7027,
     type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabInternal: {fileID: 101813399}
   m_GameObject: {fileID: 870077515}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1282,61 +2070,463 @@ MonoBehaviour:
   cubeSize: {x: 1, y: 1, z: 1}
   lineTarget: {fileID: 0}
   iconName: target
---- !u!1 &1111273293
+--- !u!1 &871902725
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100004, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabParentObject: {fileID: 100174, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1111273294}
-  - 33: {fileID: 1111273296}
-  - 23: {fileID: 1111273295}
-  m_Layer: 0
-  m_Name: polySurface21
+  - 4: {fileID: 871902726}
+  m_Layer: 8
+  m_Name: IK Chain006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1111273294
+--- !u!4 &871902726
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400004, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 1111273293}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.81469727e-06, y: -1.22513206e-13, z: -20.9837189}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_PrefabParentObject: {fileID: 400112, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 871902725}
+  m_LocalRotation: {x: -.326824784, y: .0311526228, z: .0818054304, w: .941022277}
+  m_LocalPosition: {x: .127690077, y: -.000910758972, z: -.0776195526}
+  m_LocalScale: {x: .166940376, y: .117244951, z: .112489961}
   m_Children: []
-  m_Father: {fileID: 1274889682}
---- !u!23 &1111273295
-Renderer:
+  m_Father: {fileID: 971332614}
+--- !u!1 &904699158
+GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300006, guid: c74600ed389654845a198758b41a7027,
-    type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 1111273293}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 2100000, guid: e92b1077295f69944859c68ee6af7a79, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
---- !u!33 &1111273296
-MeshFilter:
+  m_PrefabParentObject: {fileID: 100100, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 904699159}
+  m_Layer: 8
+  m_Name: skye_bone_shoulder_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &904699159
+Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300006, guid: c74600ed389654845a198758b41a7027,
-    type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 1111273293}
-  m_Mesh: {fileID: 4300028, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
+  m_PrefabParentObject: {fileID: 400046, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 904699158}
+  m_LocalRotation: {x: .0534262434, y: .0864626318, z: -.466331899, w: .878751636}
+  m_LocalPosition: {x: -1.30871511, y: .300253391, z: .800722122}
+  m_LocalScale: {x: 1.00000048, y: 1.00000024, z: 1.00000024}
+  m_Children:
+  - {fileID: 2073415138}
+  m_Father: {fileID: 210621072}
+--- !u!1 &927942015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100108, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 927942016}
+  m_Layer: 8
+  m_Name: skye_bone_neck1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &927942016
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400048, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 927942015}
+  m_LocalRotation: {x: 4.37465637e-08, y: 5.16189624e-09, z: .365591228, w: .930775523}
+  m_LocalPosition: {x: -2.33933544, y: 4.29153442e-06, z: 2.2714687e-07}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
+  m_Children:
+  - {fileID: 1266305220}
+  m_Father: {fileID: 210621072}
+--- !u!1 &951016088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100120, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 951016089}
+  m_Layer: 8
+  m_Name: skye_control_wing2right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &951016089
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400060, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 951016088}
+  m_LocalRotation: {x: -.0038016052, y: .0870728046, z: -.0434534103, w: .99524653}
+  m_LocalPosition: {x: -4.20195484, y: 5.78000927, z: .847400904}
+  m_LocalScale: {x: .99999994, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 1458260716}
+  m_Father: {fileID: 379616015}
+--- !u!1 &961728031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100194, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 961728032}
+  m_Layer: 8
+  m_Name: skye_control_tail3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &961728032
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400194, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 961728031}
+  m_LocalRotation: {x: -.216439605, y: 0, z: -0, w: .976296008}
+  m_LocalPosition: {x: 0, y: 2.95141006, z: -20.0637112}
+  m_LocalScale: {x: 1, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 633834859}
+  m_Father: {fileID: 1700479695}
+--- !u!1 &971332613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100176, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 971332614}
+  m_Layer: 8
+  m_Name: skye_control_heelleft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &971332614
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400114, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 971332613}
+  m_LocalRotation: {x: -2.9802333e-08, y: 1.51402446e-08, z: -9.57828306e-09, w: 1}
+  m_LocalPosition: {x: -9.53674316e-07, y: 1.83932257, z: -2.38418579e-07}
+  m_LocalScale: {x: .999999762, y: .999999583, z: .999999642}
+  m_Children:
+  - {fileID: 871902726}
+  m_Father: {fileID: 837896459}
+--- !u!1 &975806235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100046, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 975806236}
+  m_Layer: 8
+  m_Name: skye_bone_wing1-2_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &975806236
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400134, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 975806235}
+  m_LocalRotation: {x: -.218831584, y: .0686051697, z: -.114221819, w: .96662271}
+  m_LocalPosition: {x: -2.58415508, y: 9.53674316e-07, z: 9.53674316e-07}
+  m_LocalScale: {x: .99999994, y: .999999881, z: .99999994}
+  m_Children:
+  - {fileID: 1330381376}
+  m_Father: {fileID: 1027697815}
+--- !u!1 &1012125757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100038, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1012125758}
+  m_Layer: 8
+  m_Name: skye_bone_wing2-3_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1012125758
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400132, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1012125757}
+  m_LocalRotation: {x: .383396029, y: -.0245140903, z: -.158248901, w: .90959543}
+  m_LocalPosition: {x: -3.58489418, y: -4.76837158e-07, z: -2.86102295e-06}
+  m_LocalScale: {x: 1, y: 1, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 694035340}
+--- !u!1 &1019349073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100160, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1019349074}
+  m_Layer: 8
+  m_Name: IK Chain002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1019349074
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400100, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1019349073}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: .304541945, y: 1.0144608, z: .627687693}
+  m_LocalScale: {x: .178664386, y: .118097618, z: .118097618}
+  m_Children: []
+  m_Father: {fileID: 1171339973}
+--- !u!1 &1027697814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100048, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1027697815}
+  m_Layer: 8
+  m_Name: skye_bone_wing1-1_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1027697815
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400138, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1027697814}
+  m_LocalRotation: {x: .0869290009, y: .127952114, z: -.375650078, w: .913760722}
+  m_LocalPosition: {x: -.842533112, y: .182813406, z: .195534229}
+  m_LocalScale: {x: .999999881, y: .999999821, z: .999999702}
+  m_Children:
+  - {fileID: 975806236}
+  m_Father: {fileID: 114840882}
+--- !u!1 &1039896833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100172, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1039896834}
+  m_Layer: 8
+  m_Name: skye_control_kneeleft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1039896834
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400116, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1039896833}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 7.38727977e-08}
+  m_LocalPosition: {x: -.289235115, y: -.334498882, z: 2.6966548}
+  m_LocalScale: {x: 1.51285338, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1104721051}
+--- !u!1 &1041332025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100134, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1041332026}
+  m_Layer: 8
+  m_Name: IK Chain013
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1041332026
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400068, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1041332025}
+  m_LocalRotation: {x: -.645391047, y: .402690858, z: .350664705, w: .546209455}
+  m_LocalPosition: {x: -.263032913, y: .315944672, z: .430503607}
+  m_LocalScale: {x: .171875879, y: .171875879, z: .171875924}
+  m_Children: []
+  m_Father: {fileID: 9645467}
+--- !u!1 &1059307390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100074, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1059307391}
+  m_Layer: 8
+  m_Name: skye_bone_winghand_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1059307391
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400162, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1059307390}
+  m_LocalRotation: {x: .113098346, y: -.0460988432, z: .170739219, w: .977717638}
+  m_LocalPosition: {x: -2.86548567, y: 4.76837158e-07, z: 0}
+  m_LocalScale: {x: 1.00000012, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 1471872525}
+  - {fileID: 1888257871}
+  - {fileID: 796513895}
+  m_Father: {fileID: 1092879210}
+--- !u!1 &1092879209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100076, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1092879210}
+  m_Layer: 8
+  m_Name: skye_bone_winglower_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1092879210
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400164, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1092879209}
+  m_LocalRotation: {x: -.109273285, y: -.0126592778, z: -.429870993, w: .89616406}
+  m_LocalPosition: {x: -3.29177284, y: 1.1920929e-06, z: 2.38418579e-07}
+  m_LocalScale: {x: .999999881, y: .999999821, z: .999999821}
+  m_Children:
+  - {fileID: 1059307391}
+  m_Father: {fileID: 495022499}
+--- !u!1 &1104721050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100210, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1104721051}
+  m_Layer: 8
+  m_Name: skye_control_footpawleft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1104721051
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400210, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1104721050}
+  m_LocalRotation: {x: -.701057434, y: -.0922959596, z: -.0922959596, w: .701057434}
+  m_LocalPosition: {x: -1.26566231, y: 0, z: -5.5402832}
+  m_LocalScale: {x: .661002576, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1175226441}
+  - {fileID: 837896459}
+  - {fileID: 1039896834}
+  m_Father: {fileID: 1700479695}
+--- !u!1 &1107656443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100052, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1107656444}
+  m_Layer: 8
+  m_Name: skye_bone_winglower_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1107656444
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400150, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1107656443}
+  m_LocalRotation: {x: .109273337, y: -.0126592536, z: .429870337, w: .896164358}
+  m_LocalPosition: {x: -3.29177284, y: -2.38418579e-06, z: 0}
+  m_LocalScale: {x: .999999762, y: .999999881, z: 1.00000012}
+  m_Children:
+  - {fileID: 114840882}
+  m_Father: {fileID: 1843094651}
+--- !u!1 &1116560023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100122, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1116560024}
+  m_Layer: 8
+  m_Name: IK Chain015
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1116560024
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400054, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1116560023}
+  m_LocalRotation: {x: .501778305, y: .394279659, z: -.403999239, w: .65539813}
+  m_LocalPosition: {x: .0130357742, y: .409335136, z: .232958317}
+  m_LocalScale: {x: -.171876028, y: -.171875969, z: -.171875998}
+  m_Children: []
+  m_Father: {fileID: 2078565914}
 --- !u!1 &1138325854
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,6 +2576,33 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!1 &1142576766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1142576767}
+  m_Layer: 8
+  m_Name: skye_bone_tail2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1142576767
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400178, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1142576766}
+  m_LocalRotation: {x: -2.86693158e-09, y: -6.56723671e-08, z: .0699483752, w: .997550607}
+  m_LocalPosition: {x: -3.87593269, y: 9.53674316e-07, z: 4.12778718e-08}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
+  m_Children:
+  - {fileID: 1616685835}
+  m_Father: {fileID: 1482855634}
 --- !u!1001 &1149171440
 Prefab:
   m_ObjectHideFlags: 0
@@ -1446,6 +2663,141 @@ Prefab:
   m_RootGameObject: {fileID: 854266057}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1170941709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100132, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1170941710}
+  m_Layer: 8
+  m_Name: skye_control_wing3left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1170941710
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400074, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1170941709}
+  m_LocalRotation: {x: -7.45058149e-09, y: 1.25728565e-08, z: 5.58793634e-09, w: 1}
+  m_LocalPosition: {x: -1.0141964, y: 7.66555023, z: -.0273610353}
+  m_LocalScale: {x: .999999881, y: .99999994, z: .999999881}
+  m_Children:
+  - {fileID: 382263323}
+  m_Father: {fileID: 1576598328}
+--- !u!1 &1171339972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100206, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1171339973}
+  m_Layer: 8
+  m_Name: skye_control_handpawleft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1171339973
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400206, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1171339972}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: -.950285673, y: 0, z: -1.85693812}
+  m_LocalScale: {x: .661002576, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1019349074}
+  - {fileID: 861948207}
+  m_Father: {fileID: 1700479695}
+--- !u!1 &1175226440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100180, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1175226441}
+  m_Layer: 8
+  m_Name: IK Chain007
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1175226441
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400120, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1175226440}
+  m_LocalRotation: {x: 0, y: 0, z: .0875363424, w: .996161342}
+  m_LocalPosition: {x: .105214834, y: .705943108, z: .174760044}
+  m_LocalScale: {x: .176999986, y: .124309979, z: .11926841}
+  m_Children: []
+  m_Father: {fileID: 1104721051}
+--- !u!1 &1189968891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100088, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1189968892}
+  m_Layer: 8
+  m_Name: skye_bone_shoulder_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1189968892
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400044, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1189968891}
+  m_LocalRotation: {x: .878740966, y: -.46632871, z: .0866247863, w: .0533674248}
+  m_LocalPosition: {x: -1.30871511, y: .300253868, z: -.799278259}
+  m_LocalScale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+  m_Children:
+  - {fileID: 1308955278}
+  m_Father: {fileID: 210621072}
+--- !u!1 &1190965645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100036, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1190965646}
+  m_Layer: 8
+  m_Name: skye_bone_wing3-1_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1190965646
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400146, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1190965645}
+  m_LocalRotation: {x: -.0319293961, y: .0368303508, z: .0441235825, w: .997836232}
+  m_LocalPosition: {x: -.828759193, y: -.291272402, z: .0110713243}
+  m_LocalScale: {x: 1, y: .999999821, z: 1}
+  m_Children:
+  - {fileID: 200024637}
+  m_Father: {fileID: 114840882}
 --- !u!1 &1199763214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1634,6 +2986,88 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!1 &1205069957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100208, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1205069958}
+  m_Layer: 8
+  m_Name: skye_control_footpawright
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1205069958
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400208, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1205069957}
+  m_LocalRotation: {x: .701057434, y: .0922959372, z: -.0922959372, w: .701057434}
+  m_LocalPosition: {x: 1.23327327, y: 0, z: -5.5402832}
+  m_LocalScale: {x: -.661002576, y: -.999999821, z: -1}
+  m_Children:
+  - {fileID: 379355276}
+  - {fileID: 574501788}
+  - {fileID: 1732092068}
+  m_Father: {fileID: 1700479695}
+--- !u!1 &1206182413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100094, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1206182414}
+  m_Layer: 8
+  m_Name: skye_bone_hand_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1206182414
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400032, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1206182413}
+  m_LocalRotation: {x: -.183353096, y: .282649606, z: .314147979, w: .887582064}
+  m_LocalPosition: {x: -2.11178732, y: -2.38418579e-07, z: 0}
+  m_LocalScale: {x: 1.00000024, y: 1.00000024, z: 1}
+  m_Children:
+  - {fileID: 705816670}
+  m_Father: {fileID: 1755841611}
+--- !u!1 &1210806433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1210806434}
+  m_Layer: 8
+  m_Name: skye_bone_footpaw_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1210806434
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1210806433}
+  m_LocalRotation: {x: -.203486711, y: .0849373341, z: .248469785, w: .943208158}
+  m_LocalPosition: {x: -1.76764059, y: 1.85966492e-05, z: -1.1920929e-06}
+  m_LocalScale: {x: 1.00000072, y: 1.00000072, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1466108423}
 --- !u!1 &1216936221
 GameObject:
   m_ObjectHideFlags: 0
@@ -1677,7 +3111,7 @@ MonoBehaviour:
   camView: {x: .25998956, y: -.647117019, z: .716690361}
   gridObjPos: {x: 0, y: 0, z: 0}
   nearestSnapPos: {x: -1034, y: 8629.5, z: -1192}
-  activePoint: {x: -15, y: 147, z: -836.5}
+  activePoint: {x: -15.1347656, y: 138.177994, z: -815.663025}
 --- !u!4 &1216936223
 Transform:
   m_ObjectHideFlags: 0
@@ -1689,34 +3123,302 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1 &1274889681
+--- !u!1 &1222735513
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100008, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabParentObject: {fileID: 100114, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1274889682}
-  m_Layer: 0
-  m_Name: polySurface19
+  - 4: {fileID: 1222735514}
+  m_Layer: 8
+  m_Name: IK Chain017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1274889682
+--- !u!4 &1222735514
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400008, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 1274889681}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_PrefabParentObject: {fileID: 400050, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1222735513}
+  m_LocalRotation: {x: .521333814, y: .379928231, z: -.477714449, w: .596367776}
+  m_LocalPosition: {x: -.361437321, y: .305473328, z: .435438395}
+  m_LocalScale: {x: -.171875983, y: -.171876013, z: -.171875969}
+  m_Children: []
+  m_Father: {fileID: 1964158400}
+--- !u!1 &1266305219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100106, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1266305220}
+  m_Layer: 8
+  m_Name: skye_bone_neck2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1266305220
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400042, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1266305219}
+  m_LocalRotation: {x: 9.28755628e-10, y: 1.40918124e-10, z: -.131114006, w: .99136734}
+  m_LocalPosition: {x: -1.98426175, y: -4.76837158e-07, z: 9.71036229e-08}
+  m_LocalScale: {x: .999999762, y: .999999762, z: 1}
   m_Children:
-  - {fileID: 2037327957}
-  - {fileID: 1111273294}
-  m_Father: {fileID: 2022356205}
+  - {fileID: 132653890}
+  m_Father: {fileID: 927942016}
+--- !u!1 &1281151164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100128, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1281151165}
+  m_Layer: 8
+  m_Name: skye_control_wingelbowleft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1281151165
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400072, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1281151164}
+  m_LocalRotation: {x: .706433892, y: -.690345407, z: .0308437869, w: -.153045774}
+  m_LocalPosition: {x: -1.42450571, y: -2.91037893, z: .307761192}
+  m_LocalScale: {x: .999999821, y: .999999702, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 1576598328}
+--- !u!1 &1283452150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100058, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1283452151}
+  m_Layer: 8
+  m_Name: skye_bone_wing3-2_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1283452151
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400168, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1283452150}
+  m_LocalRotation: {x: .0844346881, y: .0188585408, z: .106230073, w: .990570724}
+  m_LocalPosition: {x: -3.41424084, y: 1.66893005e-06, z: 2.38418579e-07}
+  m_LocalScale: {x: .999999881, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 1979951283}
+  m_Father: {fileID: 796513895}
+--- !u!1 &1308955277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100086, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1308955278}
+  m_Layer: 8
+  m_Name: skye_bone_armupper_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1308955278
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400028, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1308955277}
+  m_LocalRotation: {x: .20820488, y: .128133804, z: .718178391, w: .651499987}
+  m_LocalPosition: {x: -1.49184322, y: 0, z: -9.53674316e-07}
+  m_LocalScale: {x: .999999821, y: 1, z: .999999881}
+  m_Children:
+  - {fileID: 1422233871}
+  m_Father: {fileID: 1189968892}
+--- !u!1 &1330381375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100044, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1330381376}
+  m_Layer: 8
+  m_Name: skye_bone_wing1-3_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1330381376
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400136, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1330381375}
+  m_LocalRotation: {x: .348537832, y: .0103415586, z: -.177148089, w: .920343935}
+  m_LocalPosition: {x: -3.21474648, y: -4.76837158e-07, z: -9.53674316e-07}
+  m_LocalScale: {x: 1.0000006, y: 1.00000024, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 975806236}
+--- !u!1 &1344820196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1344820197}
+  - 23: {fileID: 1344820199}
+  - 33: {fileID: 1344820198}
+  m_Layer: 8
+  m_Name: skye_bone_leglower_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1344820197
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1344820196}
+  m_LocalRotation: {x: -.216149256, y: -.104880922, z: -.57915318, w: .779012978}
+  m_LocalPosition: {x: -2.41812801, y: 0, z: 0}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 1466108423}
+  m_Father: {fileID: 1838623961}
+--- !u!33 &1344820198
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: c74600ed389654845a198758b41a7027,
+    type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1344820196}
+  m_Mesh: {fileID: 4300032, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
+--- !u!23 &1344820199
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: c74600ed389654845a198758b41a7027,
+    type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1344820196}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 0d40ee0df2e1ec0488bdd754aa14ae15, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!1 &1363786775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100188, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1363786776}
+  m_Layer: 8
+  m_Name: skye_rootbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1363786776
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400188, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1363786775}
+  m_LocalRotation: {x: .502570689, y: .497416079, z: -.502570689, w: -.497416079}
+  m_LocalPosition: {x: 0, y: 7.95301533, z: -4.41025114}
+  m_LocalScale: {x: 1, y: .99999994, z: 1}
+  m_Children:
+  - {fileID: 210621072}
+  - {fileID: 1706349052}
+  m_Father: {fileID: 1700479695}
+--- !u!1 &1389309979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100032, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1389309980}
+  m_Layer: 8
+  m_Name: skye_bone_wing3-3_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1389309980
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400130, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1389309979}
+  m_LocalRotation: {x: .189648807, y: .0227387659, z: -.222230121, w: .956101477}
+  m_LocalPosition: {x: -3.93912315, y: -4.76837158e-07, z: -2.38418579e-07}
+  m_LocalScale: {x: .999999821, y: .999999702, z: .999999642}
+  m_Children: []
+  m_Father: {fileID: 200024637}
+--- !u!1 &1422233870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100084, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1422233871}
+  m_Layer: 8
+  m_Name: skye_bone_armlower_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1422233871
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400026, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1422233870}
+  m_LocalRotation: {x: -.585766435, y: .00697920658, z: -.431046635, w: .686314642}
+  m_LocalPosition: {x: -1.30588937, y: 7.15255737e-07, z: 1.66893005e-06}
+  m_LocalScale: {x: 1.00000024, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1789086854}
+  m_Father: {fileID: 1308955278}
 --- !u!1 &1422692826
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,11 +3481,255 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!1 &1458260715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100118, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1458260716}
+  m_Layer: 8
+  m_Name: IK Chain016
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1458260716
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400052, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1458260715}
+  m_LocalRotation: {x: .546209574, y: .350664556, z: -.402690977, w: .645390928}
+  m_LocalPosition: {x: -.248767853, y: .311506271, z: .401896954}
+  m_LocalScale: {x: -.171875983, y: -.171875983, z: -.171875909}
+  m_Children: []
+  m_Father: {fileID: 951016089}
+--- !u!1 &1466108422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100022, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1466108423}
+  - 23: {fileID: 1466108425}
+  - 33: {fileID: 1466108424}
+  m_Layer: 8
+  m_Name: skye_bone_foot_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1466108423
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1466108422}
+  m_LocalRotation: {x: .207013696, y: .0715065822, z: .795827389, w: .564527154}
+  m_LocalPosition: {x: -2.26777411, y: -2.47955322e-05, z: 0}
+  m_LocalScale: {x: .999999821, y: .999999762, z: 1.00000012}
+  m_Children:
+  - {fileID: 1210806434}
+  m_Father: {fileID: 1344820197}
+--- !u!33 &1466108424
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: c74600ed389654845a198758b41a7027,
+    type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1466108422}
+  m_Mesh: {fileID: 4300034, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
+--- !u!23 &1466108425
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: c74600ed389654845a198758b41a7027,
+    type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1466108422}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: d84cd40a5809bc549a8e53c704b06713, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!1 &1471872524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100072, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1471872525}
+  m_Layer: 8
+  m_Name: skye_bone_wing1-1_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1471872525
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400152, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1471872524}
+  m_LocalRotation: {x: -.0868621767, y: .127851978, z: .375689775, w: .913764775}
+  m_LocalPosition: {x: -.842534065, y: -.182816267, z: .195536733}
+  m_LocalScale: {x: 1, y: .999999881, z: 1.00000024}
+  m_Children:
+  - {fileID: 448198152}
+  m_Father: {fileID: 1059307391}
+--- !u!1 &1472313315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100042, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1472313316}
+  m_Layer: 8
+  m_Name: skye_bone_wing2-1_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1472313316
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400144, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1472313315}
+  m_LocalRotation: {x: .0132907052, y: .0870678574, z: -.187301129, w: .97834599}
+  m_LocalPosition: {x: -.815516472, y: -.0458538532, z: .156400681}
+  m_LocalScale: {x: 1.00000024, y: .999999583, z: 1.00000024}
+  m_Children:
+  - {fileID: 694035340}
+  m_Father: {fileID: 114840882}
+--- !u!1 &1474835500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100152, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1474835501}
+  m_Layer: 8
+  m_Name: IK Chain011
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1474835501
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400090, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1474835500}
+  m_LocalRotation: {x: -.216439575, y: 0, z: -0, w: .976296008}
+  m_LocalPosition: {x: -.0399636626, y: -.130360126, z: -.198949814}
+  m_LocalScale: {x: .115408979, y: .115408987, z: .115408987}
+  m_Children: []
+  m_Father: {fileID: 2126468946}
+--- !u!1 &1482855633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1482855634}
+  - 23: {fileID: 1482855636}
+  - 33: {fileID: 1482855635}
+  m_Layer: 8
+  m_Name: skye_bone_tail1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1482855634
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400180, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1482855633}
+  m_LocalRotation: {x: -8.62122604e-08, y: 5.05975599e-08, z: .0827234313, w: .996572554}
+  m_LocalPosition: {x: -2.45366287, y: .00840568542, z: 4.76837158e-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1142576767}
+  m_Father: {fileID: 1706349052}
+--- !u!33 &1482855635
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300010, guid: c74600ed389654845a198758b41a7027,
+    type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1482855633}
+  m_Mesh: {fileID: 4300024, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
+--- !u!23 &1482855636
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300010, guid: c74600ed389654845a198758b41a7027,
+    type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1482855633}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 9031c0865c91e244c82f60361eb8b61d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!1 &1507029651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100102, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1507029652}
+  m_Layer: 8
+  m_Name: skye_bone_jaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1507029652
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400038, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1507029651}
+  m_LocalRotation: {x: 8.70674697e-08, y: -7.87380561e-09, z: -.0900658816, w: .995935798}
+  m_LocalPosition: {x: -.65032196, y: .549804688, z: 0}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
+  m_Children: []
+  m_Father: {fileID: 132653890}
 --- !u!1 &1562409877
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100002, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1562409878}
@@ -1791,6 +3737,7 @@ GameObject:
   - 114: {fileID: 1562409879}
   - 143: {fileID: 1562409881}
   - 114: {fileID: 1562409880}
+  - 114: {fileID: 1562409883}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -1802,7 +3749,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400002, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabInternal: {fileID: 101813399}
   m_GameObject: {fileID: 1562409877}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -15.1347656, y: 138.177994, z: -815.663025}
@@ -1810,14 +3757,14 @@ Transform:
   m_Children:
   - {fileID: 60506140}
   - {fileID: 870077516}
-  - {fileID: 245557830}
+  - {fileID: 1700479695}
   m_Father: {fileID: 0}
 --- !u!114 &1562409879
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400010, guid: c74600ed389654845a198758b41a7027,
     type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabInternal: {fileID: 101813399}
   m_GameObject: {fileID: 1562409877}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1836,7 +3783,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400000, guid: c74600ed389654845a198758b41a7027,
     type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabInternal: {fileID: 101813399}
   m_GameObject: {fileID: 1562409877}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1857,7 +3804,7 @@ CharacterController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 14300000, guid: c74600ed389654845a198758b41a7027,
     type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabInternal: {fileID: 101813399}
   m_GameObject: {fileID: 1562409877}
   serializedVersion: 2
   m_Height: 3
@@ -1872,7 +3819,7 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 8200000, guid: c74600ed389654845a198758b41a7027,
     type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabInternal: {fileID: 101813399}
   m_GameObject: {fileID: 1562409877}
   m_Enabled: 1
   serializedVersion: 3
@@ -1924,34 +3871,50 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
---- !u!1 &1578021407
+--- !u!114 &1562409883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1562409877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c6a2bddccf833498acb2776a6a4278, type: 3}
+  m_Name: 
+  animSpeed: 1.5
+  lookSmoother: 3
+  useCurves: 1
+--- !u!1 &1576598327
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100018, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabParentObject: {fileID: 100192, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1578021408}
-  m_Layer: 0
-  m_Name: polySurface7
+  - 4: {fileID: 1576598328}
+  m_Layer: 8
+  m_Name: skye_control_wingleft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1578021408
+--- !u!4 &1576598328
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400018, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 1578021407}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_PrefabParentObject: {fileID: 400192, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1576598327}
+  m_LocalRotation: {x: .0530571342, y: -.606444836, z: .0691452846, w: .790334463}
+  m_LocalPosition: {x: -1.6060853, y: 10.4386883, z: -4.89043713}
+  m_LocalScale: {x: .99999994, y: 1, z: .99999994}
   m_Children:
-  - {fileID: 1874611763}
-  - {fileID: 235888217}
-  m_Father: {fileID: 546854561}
+  - {fileID: 373307120}
+  - {fileID: 1811099768}
+  - {fileID: 9645467}
+  - {fileID: 1170941710}
+  - {fileID: 1281151165}
+  m_Father: {fileID: 1700479695}
 --- !u!1 &1603469261
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,61 +3982,174 @@ MonoBehaviour:
   mClipping: 2
   mClipRange: {x: 0, y: 0, z: 0, w: 0}
   mClipSoftness: {x: 40, y: 40}
---- !u!1 &1623601242
+--- !u!1 &1615045775
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100026, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabParentObject: {fileID: 100200, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1623601243}
-  - 33: {fileID: 1623601245}
-  - 23: {fileID: 1623601244}
-  m_Layer: 0
-  m_Name: polySurface10
+  - 4: {fileID: 1615045776}
+  m_Layer: 8
+  m_Name: skye_control_hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1623601243
+--- !u!4 &1615045776
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400026, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 1623601242}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_PrefabParentObject: {fileID: 400200, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1615045775}
+  m_LocalRotation: {x: .707106888, y: 0, z: 0, w: .707106769}
+  m_LocalPosition: {x: 0, y: 4.77038574, z: -4.34645081}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 245557830}
---- !u!23 &1623601244
+  m_Father: {fileID: 1700479695}
+--- !u!1 &1616685834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1616685835}
+  - 23: {fileID: 1616685837}
+  - 33: {fileID: 1616685836}
+  m_Layer: 8
+  m_Name: skye_bone_tail3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1616685835
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1616685834}
+  m_LocalRotation: {x: -7.53189955e-09, y: -4.07749212e-08, z: .0784001648, w: .996921957}
+  m_LocalPosition: {x: -3.80751133, y: 3.33786011e-06, z: 4.00530098e-08}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
+  m_Children:
+  - {fileID: 1929784643}
+  m_Father: {fileID: 1142576767}
+--- !u!33 &1616685836
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: c74600ed389654845a198758b41a7027,
+    type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1616685834}
+  m_Mesh: {fileID: 4300026, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
+--- !u!23 &1616685837
 Renderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300004, guid: c74600ed389654845a198758b41a7027,
+  m_PrefabParentObject: {fileID: 2300008, guid: c74600ed389654845a198758b41a7027,
     type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 1623601242}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1616685834}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 9031c0865c91e244c82f60361eb8b61d, type: 2}
+  - {fileID: 2100000, guid: 64eed518749aec04fb88ffc3b259eb14, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!1 &1628028270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100218, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1628028271}
+  - 137: {fileID: 1628028272}
+  m_Layer: 8
+  m_Name: Object001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1628028271
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400218, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1628028270}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 3.15424156, z: -3.46054983}
+  m_LocalScale: {x: .264782906, y: .202927336, z: .883393824}
+  m_Children: []
+  m_Father: {fileID: 1700479695}
+--- !u!137 &1628028272
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700002, guid: c74600ed389654845a198758b41a7027,
+    type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1628028270}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: eac6a2833d98a6442ab15f2817b94f6c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
---- !u!33 &1623601245
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300004, guid: c74600ed389654845a198758b41a7027,
-    type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 1623601242}
-  m_Mesh: {fileID: 4300030, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300002, guid: 06a638f3fd23d834d839f1b16ed3c092, type: 3}
+  m_Bones:
+  - {fileID: 1838623961}
+  - {fileID: 1706349052}
+  - {fileID: 1482855634}
+  - {fileID: 1142576767}
+  - {fileID: 448198152}
+  - {fileID: 1829875019}
+  - {fileID: 229792268}
+  - {fileID: 1979951283}
+  - {fileID: 1283452151}
+  - {fileID: 796513895}
+  - {fileID: 1092879210}
+  - {fileID: 1059307391}
+  - {fileID: 1888257871}
+  - {fileID: 495022499}
+  - {fileID: 210621072}
+  - {fileID: 652793814}
+  - {fileID: 1471872525}
+  - {fileID: 1107656444}
+  - {fileID: 114840882}
+  - {fileID: 1190965646}
+  - {fileID: 1472313316}
+  - {fileID: 1843094651}
+  - {fileID: 200024637}
+  - {fileID: 1027697815}
+  - {fileID: 1330381376}
+  - {fileID: 975806236}
+  - {fileID: 1012125758}
+  - {fileID: 1389309980}
+  - {fileID: 694035340}
+  - {fileID: 808179902}
+  m_RootBone: {fileID: 1363786776}
+  m_AABB:
+    m_Center: {x: 2.79576302, y: -7.86687088, z: -.000319480896}
+    m_Extent: {x: 5.75511169, y: 9.05195236, z: 7.26741934}
+  m_DirtyAABB: 0
 --- !u!1 &1630229237
 GameObject:
   m_ObjectHideFlags: 0
@@ -2237,6 +4313,306 @@ MonoBehaviour:
   cubeSize: {x: 1, y: 1, z: 1}
   lineTarget: {fileID: 870077516}
   iconName: icon.putextensionere
+--- !u!1 &1700479694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100224, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1700479695}
+  - 95: {fileID: 1700479696}
+  m_Layer: 8
+  m_Name: skye anim base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1700479695
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400224, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1700479694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1959997348}
+  - {fileID: 376970483}
+  - {fileID: 1628028271}
+  - {fileID: 572452877}
+  - {fileID: 340834434}
+  - {fileID: 178740493}
+  - {fileID: 1104721051}
+  - {fileID: 1205069958}
+  - {fileID: 1171339973}
+  - {fileID: 2051494120}
+  - {fileID: 2126468946}
+  - {fileID: 1615045776}
+  - {fileID: 1844151003}
+  - {fileID: 671817724}
+  - {fileID: 961728032}
+  - {fileID: 1576598328}
+  - {fileID: 379616015}
+  - {fileID: 1363786776}
+  - {fileID: 247287144}
+  m_Father: {fileID: 1562409878}
+--- !u!95 &1700479696
+Animator:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: c74600ed389654845a198758b41a7027,
+    type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1700479694}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: c07467a687bbebb48b803ca7954c44d8, type: 3}
+  m_Controller: {fileID: 9100000, guid: c3be6ec74b551e543ade1916ee5d06fd, type: 2}
+  m_CullingMode: 1
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 1
+--- !u!1 &1706349051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100030, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1706349052}
+  m_Layer: 8
+  m_Name: skye_bone_waist
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1706349052
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400182, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1706349051}
+  m_LocalRotation: {x: -8.12082757e-09, y: -8.93753693e-09, z: -.771436572, w: .636306226}
+  m_LocalPosition: {x: -3.24014473, y: 3.29017639e-05, z: -2.87059265e-12}
+  m_LocalScale: {x: .99999994, y: .99999994, z: 1}
+  m_Children:
+  - {fileID: 640276335}
+  - {fileID: 1838623961}
+  - {fileID: 808179902}
+  - {fileID: 1482855634}
+  m_Father: {fileID: 1363786776}
+--- !u!1 &1732092067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100162, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1732092068}
+  m_Layer: 8
+  m_Name: skye_control_kneeright
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1732092068
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400106, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1732092067}
+  m_LocalRotation: {x: 4.3820411e-15, y: -3.55271368e-15, z: 1, w: 8.37225116e-08}
+  m_LocalPosition: {x: -.340242147, y: -.34353447, z: 2.6966548}
+  m_LocalScale: {x: 1.51285326, y: 1.00000012, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1205069958}
+--- !u!1 &1740560677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100164, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1740560678}
+  m_Layer: 8
+  m_Name: IK Chain005
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1740560678
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400102, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1740560677}
+  m_LocalRotation: {x: .941022336, y: .0818054378, z: -.0311526489, w: .326824605}
+  m_LocalPosition: {x: .0673305988, y: -.009100914, z: -.0707480907}
+  m_LocalScale: {x: -.177474231, y: -.124643065, z: -.11958798}
+  m_Children: []
+  m_Father: {fileID: 2064345944}
+--- !u!1 &1755841610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100096, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1755841611}
+  m_Layer: 8
+  m_Name: skye_bone_armlower_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1755841611
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400034, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1755841610}
+  m_LocalRotation: {x: .585766792, y: .00697935279, z: .431046665, w: .686314344}
+  m_LocalPosition: {x: -1.30588853, y: -4.76837158e-07, z: -2.38418579e-07}
+  m_LocalScale: {x: .999999702, y: .999999881, z: 1}
+  m_Children:
+  - {fileID: 1206182414}
+  m_Father: {fileID: 2073415138}
+--- !u!1 &1782988396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100080, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1782988397}
+  m_Layer: 8
+  m_Name: skye_bone_handpaw_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1782988397
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400022, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1782988396}
+  m_LocalRotation: {x: .158467814, y: .0148403831, z: -.364478648, w: .917509198}
+  m_LocalPosition: {x: -.6498276, y: -1.07288361e-06, z: -1.78813934e-07}
+  m_LocalScale: {x: .999999821, y: .999999881, z: .999999881}
+  m_Children: []
+  m_Father: {fileID: 1789086854}
+--- !u!1 &1786264835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100156, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1786264836}
+  m_Layer: 8
+  m_Name: IK Chain004
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1786264836
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400096, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1786264835}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 4.37113883e-08}
+  m_LocalPosition: {x: .305290103, y: 1.0144639, z: .627686262}
+  m_LocalScale: {x: -.176555723, y: -.116703793, z: -.116703793}
+  m_Children: []
+  m_Father: {fileID: 2051494120}
+--- !u!1 &1789086853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100082, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1789086854}
+  m_Layer: 8
+  m_Name: skye_bone_hand_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1789086854
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400024, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1789086853}
+  m_LocalRotation: {x: .183202222, y: .282581896, z: -.314175993, w: .88762486}
+  m_LocalPosition: {x: -2.11178732, y: 7.15255737e-07, z: -5.96046448e-07}
+  m_LocalScale: {x: 1, y: 1.00000024, z: 1.00000024}
+  m_Children:
+  - {fileID: 1782988397}
+  m_Father: {fileID: 1422233871}
+--- !u!1 &1799246594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100148, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1799246595}
+  m_Layer: 8
+  m_Name: Point002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1799246595
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400086, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1799246594}
+  m_LocalRotation: {x: -.675590098, y: 3.23835998e-08, z: -3.53405092e-08, w: .737277448}
+  m_LocalPosition: {x: -1.03916523e-06, y: -.0874896049, z: .0240802765}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1844151003}
+--- !u!1 &1811099767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100140, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1811099768}
+  m_Layer: 8
+  m_Name: skye_control_wing1left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1811099768
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400078, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1811099767}
+  m_LocalRotation: {x: .00757441809, y: .042956721, z: -.0870727673, w: .99524653}
+  m_LocalPosition: {x: -5.55122519, y: 2.95881271, z: 1.2491399}
+  m_LocalScale: {x: .99999994, y: .99999994, z: .999999762}
+  m_Children:
+  - {fileID: 1928950679}
+  m_Father: {fileID: 1576598328}
 --- !u!1 &1828629641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2294,41 +4670,264 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 231.999969, y: 63.9990234, z: 5.92999983}
   m_Center: {x: -1.52587891e-05, y: 0, z: -1.25195312}
---- !u!1 &1874611762
+--- !u!1 &1829875018
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100016, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabParentObject: {fileID: 100068, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1874611763}
-  - 33: {fileID: 1874611765}
-  - 23: {fileID: 1874611764}
-  m_Layer: 0
-  m_Name: polySurface12
+  - 4: {fileID: 1829875019}
+  m_Layer: 8
+  m_Name: skye_bone_wing1-3_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1874611763
+--- !u!4 &1829875019
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400016, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 1874611762}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.81469727e-06, y: -1.22513206e-13, z: -20.9837189}
+  m_PrefabParentObject: {fileID: 400174, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1829875018}
+  m_LocalRotation: {x: -.348537892, y: .0103416461, z: .177148938, w: .920343816}
+  m_LocalPosition: {x: -3.21474552, y: -4.76837158e-07, z: 4.76837158e-07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1578021408}
---- !u!23 &1874611764
+  m_Father: {fileID: 448198152}
+--- !u!1 &1838623960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100026, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1838623961}
+  - 23: {fileID: 1838623963}
+  - 33: {fileID: 1838623962}
+  m_Layer: 8
+  m_Name: skye_bone_legupper_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1838623961
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400184, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1838623960}
+  m_LocalRotation: {x: -.0769117177, y: .0949223489, z: .860078216, w: .495317876}
+  m_LocalPosition: {x: -2.4658947, y: -.332181931, z: .651324272}
+  m_LocalScale: {x: .99999994, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1344820197}
+  m_Father: {fileID: 1706349052}
+--- !u!33 &1838623962
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: c74600ed389654845a198758b41a7027,
+    type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1838623960}
+  m_Mesh: {fileID: 4300030, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
+--- !u!23 &1838623963
 Renderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300012, guid: c74600ed389654845a198758b41a7027,
+  m_PrefabParentObject: {fileID: 2300004, guid: c74600ed389654845a198758b41a7027,
     type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 1874611762}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1838623960}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 9031c0865c91e244c82f60361eb8b61d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!1 &1843094650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100054, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1843094651}
+  m_Layer: 8
+  m_Name: skye_bone_wingupper_right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1843094651
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400142, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1843094650}
+  m_LocalRotation: {x: .48886919, y: .857574224, z: .110124081, w: -.115957215}
+  m_LocalPosition: {x: -1.15411592, y: -.249220848, z: -.638643265}
+  m_LocalScale: {x: 1.00000036, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 1107656444}
+  m_Father: {fileID: 210621072}
+--- !u!1 &1844151002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100198, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1844151003}
+  m_Layer: 8
+  m_Name: skye_control_tail1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1844151003
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400198, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1844151002}
+  m_LocalRotation: {x: -.0436194167, y: 0, z: -0, w: .999048233}
+  m_LocalPosition: {x: 0, y: 5.16019869, z: -12.4457388}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1799246595}
+  m_Father: {fileID: 1700479695}
+--- !u!1 &1849667988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100146, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1849667989}
+  m_Layer: 8
+  m_Name: Point003
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1849667989
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400084, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1849667988}
+  m_LocalRotation: {x: -.573576331, y: 2.65568652e-08, z: -3.79271441e-08, w: .819152117}
+  m_LocalPosition: {x: -8.69877567e-07, y: .048163414, z: -.0180110931}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 671817724}
+--- !u!1 &1888257870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100066, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1888257871}
+  m_Layer: 8
+  m_Name: skye_bone_wing2-1_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1888257871
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400160, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1888257870}
+  m_LocalRotation: {x: -.0132717155, y: .0870230868, z: .187333778, w: .978343964}
+  m_LocalPosition: {x: -.815519333, y: .0458505154, z: .156404376}
+  m_LocalScale: {x: .999999881, y: .999999881, z: 1.00000012}
+  m_Children:
+  - {fileID: 652793814}
+  m_Father: {fileID: 1059307391}
+--- !u!1 &1928950678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100138, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1928950679}
+  m_Layer: 8
+  m_Name: IK Chain014
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1928950679
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400070, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1928950678}
+  m_LocalRotation: {x: -.655398309, y: .40399909, z: .394279778, w: .501778066}
+  m_LocalPosition: {x: .000900268555, y: .413604736, z: .261908531}
+  m_LocalScale: {x: .171875909, y: .171875939, z: .171875939}
+  m_Children: []
+  m_Father: {fileID: 1811099768}
+--- !u!1 &1929784642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1929784643}
+  - 23: {fileID: 1929784645}
+  - 33: {fileID: 1929784644}
+  m_Layer: 8
+  m_Name: skye_bone_tail4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1929784643
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1929784642}
+  m_LocalRotation: {x: 5.96209582e-10, y: 3.43275165e-11, z: .0574810654, w: .998346627}
+  m_LocalPosition: {x: -3.29889965, y: -4.10079956e-05, z: 3.43102329e-08}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1616685835}
+--- !u!33 &1929784644
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: c74600ed389654845a198758b41a7027,
+    type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1929784642}
+  m_Mesh: {fileID: 4300028, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
+--- !u!23 &1929784645
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: c74600ed389654845a198758b41a7027,
+    type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1929784642}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2338,72 +4937,114 @@ Renderer:
   - {fileID: 2100000, guid: e92b1077295f69944859c68ee6af7a79, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
+  m_UseLightProbes: 1
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
---- !u!33 &1874611765
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300012, guid: c74600ed389654845a198758b41a7027,
-    type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 1874611762}
-  m_Mesh: {fileID: 4300022, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
---- !u!1 &1949246613
+--- !u!1 &1959997347
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100022, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabParentObject: {fileID: 100222, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1949246614}
-  - 33: {fileID: 1949246616}
-  - 23: {fileID: 1949246615}
-  m_Layer: 0
-  m_Name: polySurface17
+  - 4: {fileID: 1959997348}
+  m_Layer: 8
+  m_Name: IK Chain018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1949246614
+--- !u!4 &1959997348
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400022, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 1949246613}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_PrefabParentObject: {fileID: 400222, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1959997347}
+  m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+  m_LocalPosition: {x: -8.18074682e-07, y: 3.83351564, z: -17.611414}
+  m_LocalScale: {x: .230748072, y: .230748072, z: .230748072}
+  m_Children: []
+  m_Father: {fileID: 1700479695}
+--- !u!1 &1964158399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100116, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1964158400}
+  m_Layer: 8
+  m_Name: skye_control_wing3right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1964158400
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400058, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1964158399}
+  m_LocalRotation: {x: 7.45057971e-09, y: -6.98491931e-10, z: 5.20417001e-18, w: 1}
+  m_LocalPosition: {x: -1.01419735, y: 7.66555119, z: -.0273609161}
+  m_LocalScale: {x: 1, y: 1.00000012, z: 1}
+  m_Children:
+  - {fileID: 1222735514}
+  m_Father: {fileID: 379616015}
+--- !u!1 &1979522693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100150, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1979522694}
+  m_Layer: 8
+  m_Name: skye_control_neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1979522694
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400088, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1979522693}
+  m_LocalRotation: {x: .130526185, y: 0, z: -0, w: .991444886}
+  m_LocalPosition: {x: -.0399636626, y: 2.75725293, z: -.784807682}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 245557830}
---- !u!23 &1949246615
-Renderer:
+  m_Father: {fileID: 2126468946}
+--- !u!1 &1979951282
+GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: c74600ed389654845a198758b41a7027,
-    type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 1949246613}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 2100000, guid: d84cd40a5809bc549a8e53c704b06713, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
---- !u!33 &1949246616
-MeshFilter:
+  m_PrefabParentObject: {fileID: 100056, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1979951283}
+  m_Layer: 8
+  m_Name: skye_bone_wing3-3_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1979951283
+Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: c74600ed389654845a198758b41a7027,
-    type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 1949246613}
-  m_Mesh: {fileID: 4300034, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
+  m_PrefabParentObject: {fileID: 400170, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 1979951282}
+  m_LocalRotation: {x: -.189648703, y: .0227386821, z: .222228423, w: .956101894}
+  m_LocalPosition: {x: -3.93912506, y: 1.43051147e-06, z: 2.38418579e-07}
+  m_LocalScale: {x: .99999994, y: .999999881, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1283452151}
 --- !u!1 &2011342549
 GameObject:
   m_ObjectHideFlags: 0
@@ -2592,89 +5233,143 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1 &2022356204
+--- !u!1 &2051494119
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100012, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabParentObject: {fileID: 100204, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 2022356205}
-  m_Layer: 0
-  m_Name: polySurface16
+  - 4: {fileID: 2051494120}
+  m_Layer: 8
+  m_Name: skye_control_handpawright
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2022356205
+--- !u!4 &2051494120
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400012, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 2022356204}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_PrefabParentObject: {fileID: 400204, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 2051494119}
+  m_LocalRotation: {x: .707106829, y: -0, z: 0, w: .707106829}
+  m_LocalPosition: {x: .949336052, y: 0, z: -1.85693812}
+  m_LocalScale: {x: -.661002576, y: -1, z: -1}
   m_Children:
-  - {fileID: 61107337}
-  - {fileID: 1274889682}
-  m_Father: {fileID: 235888217}
---- !u!1 &2037327956
+  - {fileID: 1786264836}
+  - {fileID: 2141934237}
+  m_Father: {fileID: 1700479695}
+--- !u!1 &2064345943
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100006, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
+  m_PrefabParentObject: {fileID: 100166, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 2037327957}
-  - 33: {fileID: 2037327959}
-  - 23: {fileID: 2037327958}
-  m_Layer: 0
-  m_Name: polySurface20
+  - 4: {fileID: 2064345944}
+  m_Layer: 8
+  m_Name: skye_control_heelright
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2037327957
+--- !u!4 &2064345944
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400006, guid: c74600ed389654845a198758b41a7027, type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 2037327956}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.81469727e-06, y: -1.22513206e-13, z: -20.9837189}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1274889682}
---- !u!23 &2037327958
-Renderer:
+  m_PrefabParentObject: {fileID: 400104, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 2064345943}
+  m_LocalRotation: {x: -7.7908853e-17, y: 7.25198079e-09, z: 1.0743114e-08, w: 1}
+  m_LocalPosition: {x: -.0196287632, y: 1.83665848, z: .00223517418}
+  m_LocalScale: {x: 1, y: .999999642, z: .999999702}
+  m_Children:
+  - {fileID: 1740560678}
+  m_Father: {fileID: 574501788}
+--- !u!1 &2073415137
+GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300008, guid: c74600ed389654845a198758b41a7027,
-    type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 2037327956}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 2100000, guid: 64eed518749aec04fb88ffc3b259eb14, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
---- !u!33 &2037327959
-MeshFilter:
+  m_PrefabParentObject: {fileID: 100098, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2073415138}
+  m_Layer: 8
+  m_Name: skye_bone_armupper_left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2073415138
+Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300008, guid: c74600ed389654845a198758b41a7027,
-    type: 2}
-  m_PrefabInternal: {fileID: 580531995}
-  m_GameObject: {fileID: 2037327956}
-  m_Mesh: {fileID: 4300026, guid: 9841213920ec8134e8597a4f776f4992, type: 3}
+  m_PrefabParentObject: {fileID: 400036, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 2073415137}
+  m_LocalRotation: {x: -.208205059, y: .128133774, z: -.718178451, w: .651499867}
+  m_LocalPosition: {x: -1.49184322, y: 1.1920929e-07, z: -2.38418579e-07}
+  m_LocalScale: {x: 1, y: .99999994, z: .99999994}
+  m_Children:
+  - {fileID: 1755841611}
+  m_Father: {fileID: 904699159}
+--- !u!1 &2078565913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100124, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2078565914}
+  m_Layer: 8
+  m_Name: skye_control_wing1right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2078565914
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400062, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 2078565913}
+  m_LocalRotation: {x: .00757442694, y: .0429567397, z: -.0870727673, w: .99524653}
+  m_LocalPosition: {x: -5.55122566, y: 2.95881367, z: 1.24914026}
+  m_LocalScale: {x: 1, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 1116560024}
+  m_Father: {fileID: 379616015}
+--- !u!1 &2126468945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100202, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2126468946}
+  m_Layer: 8
+  m_Name: skye_control_head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2126468946
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400202, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 2126468945}
+  m_LocalRotation: {x: -.537299633, y: 0, z: -0, w: .843391418}
+  m_LocalPosition: {x: .0399636626, y: 7.92120171, z: .379466414}
+  m_LocalScale: {x: 1, y: 1.00000012, z: .99999994}
+  m_Children:
+  - {fileID: 1474835501}
+  - {fileID: 1979522694}
+  m_Father: {fileID: 1700479695}
 --- !u!1 &2130508076
 GameObject:
   m_ObjectHideFlags: 0
@@ -2739,3 +5434,29 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!1 &2141934236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100154, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2141934237}
+  m_Layer: 8
+  m_Name: skye_control_handright
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2141934237
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400094, guid: c74600ed389654845a198758b41a7027, type: 2}
+  m_PrefabInternal: {fileID: 101813399}
+  m_GameObject: {fileID: 2141934236}
+  m_LocalRotation: {x: .382683426, y: 0, z: -0, w: .923879564}
+  m_LocalPosition: {x: 2.62260437e-06, y: .53218317, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2051494120}
