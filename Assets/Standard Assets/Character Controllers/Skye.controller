@@ -7,15 +7,15 @@ AnimatorController:
   m_PrefabInternal: {fileID: 0}
   m_Name: Skye
   m_AnimatorEvents:
-  - m_Name: Direction
+  - m_Name: Speed
     m_Type: 1
-    m_Min: -1
+    m_Min: 0
     m_Max: 1
     m_DefaultVector: {x: 0, y: 0, z: 0}
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-  - m_Name: Speed
+  - m_Name: Direction
     m_Type: 1
     m_Min: -1
     m_Max: 1
@@ -51,47 +51,50 @@ BlendTree:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Blend Tree
-  m_Childs: []
+  m_Name: Walks
+  m_Childs:
+  - m_Motion: {fileID: 7400000, guid: 110162a4a5bbc3e4fa260abfe05cc7a9, type: 3}
+    m_Threshold: -1
+    m_Position: {x: -1, y: 1}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_IsAnim: 1
+    m_Mirror: 0
+  - m_Motion: {fileID: 7400000, guid: f7bb273a9f6786c4d97796271a434911, type: 3}
+    m_Threshold: 0
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_IsAnim: 1
+    m_Mirror: 0
+  - m_Motion: {fileID: 7400000, guid: cf8865550591fa144a7d48ecea671507, type: 3}
+    m_Threshold: 1
+    m_Position: {x: 1, y: 1}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_IsAnim: 1
+    m_Mirror: 0
   m_BlendEvent: Direction
-  m_BlendEventY: Direction
-  m_MinThreshold: 0
+  m_BlendEventY: Speed
+  m_MinThreshold: -1
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 1
-  m_BlendType: 0
+  m_BlendType: 1
 --- !u!1101 &110100000
 Transition:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_SrcState: {fileID: 110296054}
-  m_DstState: {fileID: 110200000}
-  m_TransitionDuration: .414687961
-  m_TransitionOffset: .00294925878
-  m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: 
-    m_EventTreshold: 0
-    m_ExitTime: .713279366
-  m_Atomic: 1
-  m_Solo: 0
-  m_Mute: 0
---- !u!1101 &110100620
-Transition:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
   m_SrcState: {fileID: 110200000}
-  m_DstState: {fileID: 110296054}
-  m_TransitionDuration: .112448759
+  m_DstState: {fileID: 110214923}
+  m_TransitionDuration: .0416666679
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
     m_ConditionEvent: 
     m_EventTreshold: 0
-    m_ExitTime: .91114521
+    m_ExitTime: .958333313
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
@@ -113,6 +116,24 @@ Transition:
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
+--- !u!1101 &110146699
+Transition:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_SrcState: {fileID: 110214923}
+  m_DstState: {fileID: 110200000}
+  m_TransitionDuration: 1
+  m_TransitionOffset: 0
+  m_Conditions:
+  - m_ConditionMode: 5
+    m_ConditionEvent: 
+    m_EventTreshold: 0
+    m_ExitTime: 0
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
 --- !u!1102 &110200000
 State:
   m_ObjectHideFlags: 3
@@ -124,7 +145,22 @@ State:
   m_Motions:
   - {fileID: 7400000, guid: c07467a687bbebb48b803ca7954c44d8, type: 3}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 240, y: 12, z: 0}
+  m_Position: {x: 264, y: 12, z: 0}
+  m_IKOnFeet: 1
+  m_Mirror: 0
+  m_Tag: 
+--- !u!1102 &110214923
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Walks
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 20600002}
+  m_ParentStateMachine: {fileID: 110700000}
+  m_Position: {x: 264, y: -96, z: 0}
   m_IKOnFeet: 1
   m_Mirror: 0
   m_Tag: 
@@ -143,36 +179,6 @@ State:
   m_IKOnFeet: 1
   m_Mirror: 0
   m_Tag: 
---- !u!1102 &110261172
-State:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Blend Tree
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Motions:
-  - {fileID: 20600002}
-  m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 240, y: -144, z: 0}
-  m_IKOnFeet: 1
-  m_Mirror: 0
-  m_Tag: 
---- !u!1102 &110296054
-State:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Walk
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Motions:
-  - {fileID: 7400000, guid: f7bb273a9f6786c4d97796271a434911, type: 3}
-  m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 240, y: -60, z: 0}
-  m_IKOnFeet: 1
-  m_Mirror: 0
-  m_Tag: 
 --- !u!1107 &110700000
 StateMachine:
   serializedVersion: 2
@@ -183,31 +189,30 @@ StateMachine:
   m_DefaultState: {fileID: 110200000}
   m_States:
   - {fileID: 110200000}
-  - {fileID: 110296054}
-  - {fileID: 110261172}
+  - {fileID: 110214923}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_LocalTransitions:
     data:
-      first: {fileID: 110296054}
+      first: {fileID: 110214923}
       second:
-      - {fileID: 110100000}
+      - {fileID: 110146699}
     data:
       first: {fileID: 110200000}
       second:
-      - {fileID: 110100620}
+      - {fileID: 110100000}
     data:
       first: {fileID: 0}
       second: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110296054}
+      first: {fileID: 110214923}
       second:
-      - {fileID: 110100000}
+      - {fileID: 110146699}
     data:
       first: {fileID: 110200000}
       second:
-      - {fileID: 110100620}
+      - {fileID: 110100000}
     data:
       first: {fileID: 0}
       second: []

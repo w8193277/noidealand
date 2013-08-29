@@ -19,28 +19,28 @@ namespace Managers
 		public bool _hideCursor;
 		
 		// Menu logic
-		//public bool _showMenu;
+		public bool _showMenu;
 		public KeyCode menuKey;
-		/*public KeyCode acceptKey;
+		public KeyCode acceptKey;
 		public float volumeLevel = 1.0f;
-		public GUISkin _menuSkin;*/
+		public GUISkin _menuSkin;
 		public CharacterController _player;
 		public ThirdPersonCameraController _cameraScript;
 		public ThirdPersonController _controller;
-		//public AudioListener listener;
+		public AudioListener listener;
 		
 		// Bounds logic
 		public GameObject[] levelBounds;
 		public GameObject player;
 		
-		/*// define and create our GUI delegate
+		// define and create our GUI delegate
 	    private delegate void GUIMethod(); 
 	    private GUIMethod currentGUIMethod;
-	    */
+	    
 	    // Cursor logic
 	    void LateUpdate() 
 	    {
-	    	if(!_hideCursor) //&& _showMenu)
+	    	if(!_hideCursor && _showMenu)
 	    	{
 	    		//Time.timeScale = 0.0f;
 	    		_player.enabled = false;
@@ -48,7 +48,7 @@ namespace Managers
 	    		Screen.lockCursor = false;
 	    		Screen.showCursor = true;
 	    	}
-	    	if(_hideCursor)// && !_showMenu)
+	    	if(_hideCursor && !_showMenu)
 	    	{
 	    		//Time.timeScale = 1.0f;
 	    		_player.enabled = true;
@@ -60,7 +60,7 @@ namespace Managers
 	    	{
 	    		_cameraScript.enabled = !_cameraScript.enabled;
 	    		_hideCursor = !_hideCursor;
-	    		//_showMenu = !_showMenu;
+	    		_showMenu = !_showMenu;
 	    	}
 	    	if(_cameraScript == null)
 	    	{
@@ -72,10 +72,10 @@ namespace Managers
 	    public void Start () 
 	    { 	
 			// start with the main menu GUI
-			//this.currentGUIMethod = MainMenu;
+			this.currentGUIMethod = MainMenu;
 			//load configuration
 	    } 
-	 /*
+	 
 	    public void MainMenu() 
 	    { 	
 	    	if(_showMenu){
@@ -231,6 +231,6 @@ namespace Managers
 	    }
 	    public void SaveGame()
 	    {
-	    }*/
+	    }
 	}
 }

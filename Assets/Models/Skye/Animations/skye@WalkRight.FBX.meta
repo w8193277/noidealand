@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: cf8865550591fa144a7d48ecea671507
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: IK Chain001
+    100002: IK Chain002
+    100004: IK Chain003
+    100006: IK Chain004
+    100008: IK Chain005
+    100010: IK Chain006
+    100012: IK Chain007
+    100014: IK Chain008
+    100016: IK Chain009
+    100018: IK Chain010
+    100020: IK Chain011
+    100022: IK Chain012
+    100024: IK Chain013
+    100026: IK Chain014
+    100028: IK Chain015
+    100030: IK Chain016
+    100032: IK Chain017
+    100034: IK Chain018
+    100036: Line003
+    100038: Object001
+    100040: Point001
+    100042: Point002
+    100044: Point003
+    100046: Point004
+    100048: //RootNode
+    100050: skye_bone_armlower_left
+    100052: skye_bone_armlower_right
+    100054: skye_bone_armupper_left
+    100056: skye_bone_armupper_right
+    100058: skye_bone_chest
+    100060: skye_bone_foot_left
+    100062: skye_bone_foot_right
+    100064: skye_bone_footpaw_left
+    100066: skye_bone_footpaw_right
+    100068: skye_bone_hand_left
+    100070: skye_bone_hand_right
+    100072: skye_bone_handpaw_left
+    100074: skye_bone_handpaw_right
+    100076: skye_bone_head
+    100078: skye_bone_jaw
+    100080: skye_bone_leglower_left
+    100082: skye_bone_leglower_right
+    100084: skye_bone_legupper_left
+    100086: skye_bone_legupper_right
+    100088: skye_bone_neck1
+    100090: skye_bone_neck2
+    100092: skye_bone_shoulder_left
+    100094: skye_bone_shoulder_right
+    100096: skye_bone_tail1
+    100098: skye_bone_tail2
+    100100: skye_bone_tail3
+    100102: skye_bone_tail4
+    100104: skye_bone_waist
+    100106: skye_bone_wing1-1_left
+    100108: skye_bone_wing1-1_right
+    100110: skye_bone_wing1-2_left
+    100112: skye_bone_wing1-2_right
+    100114: skye_bone_wing1-3_left
+    100116: skye_bone_wing1-3_right
+    100118: skye_bone_wing2-1_left
+    100120: skye_bone_wing2-1_right
+    100122: skye_bone_wing2-2_left
+    100124: skye_bone_wing2-3_left
+    100126: skye_bone_wing2-3_right
+    100128: skye_bone_wing3-1_left
+    100130: skye_bone_wing3-1_right
+    100132: skye_bone_wing3-2_left
+    100134: skye_bone_wing3-2_right
+    100136: skye_bone_wing3-3_left
+    100138: skye_bone_wing3-3_right
+    100140: skye_bone_wing_2-2_right
+    100142: skye_bone_winghand_left
+    100144: skye_bone_winghand_right
+    100146: skye_bone_winglower_left
+    100148: skye_bone_winglower_right
+    100150: skye_bone_wingupper_left
+    100152: skye_bone_wingupper_right
+    100154: skye_control_chest
+    100156: skye_control_elbowleft
+    100158: skye_control_elbowright
+    100160: skye_control_footleft
+    100162: skye_control_footpawleft
+    100164: skye_control_footpawright
+    100166: skye_control_footright
+    100168: skye_control_handleft
+    100170: skye_control_handpawleft
+    100172: skye_control_handpawright
+    100174: skye_control_handright
+    100176: skye_control_head
+    100178: skye_control_heelleft
+    100180: skye_control_heelright
+    100182: skye_control_hips
+    100184: skye_control_kneeleft
+    100186: skye_control_kneeright
+    100188: skye_control_neck
+    100190: skye_control_tail1
+    100192: skye_control_tail2
+    100194: skye_control_tail3
+    100196: skye_control_wing1left
+    100198: skye_control_wing1right
+    100200: skye_control_wing2left
+    100202: skye_control_wing2right
+    100204: skye_control_wing3left
+    100206: skye_control_wing3right
+    100208: skye_control_wingelbowleft
+    100210: skye_control_wingelbowright
+    100212: skye_control_wingleft
+    100214: skye_control_wingright
+    100216: skye_rootbone
+    100218: skyebody
+    400000: IK Chain001
+    400002: IK Chain002
+    400004: IK Chain003
+    400006: IK Chain004
+    400008: IK Chain005
+    400010: IK Chain006
+    400012: IK Chain007
+    400014: IK Chain008
+    400016: IK Chain009
+    400018: IK Chain010
+    400020: IK Chain011
+    400022: IK Chain012
+    400024: IK Chain013
+    400026: IK Chain014
+    400028: IK Chain015
+    400030: IK Chain016
+    400032: IK Chain017
+    400034: IK Chain018
+    400036: Line003
+    400038: Object001
+    400040: Point001
+    400042: Point002
+    400044: Point003
+    400046: Point004
+    400048: //RootNode
+    400050: skye_bone_armlower_left
+    400052: skye_bone_armlower_right
+    400054: skye_bone_armupper_left
+    400056: skye_bone_armupper_right
+    400058: skye_bone_chest
+    400060: skye_bone_foot_left
+    400062: skye_bone_foot_right
+    400064: skye_bone_footpaw_left
+    400066: skye_bone_footpaw_right
+    400068: skye_bone_hand_left
+    400070: skye_bone_hand_right
+    400072: skye_bone_handpaw_left
+    400074: skye_bone_handpaw_right
+    400076: skye_bone_head
+    400078: skye_bone_jaw
+    400080: skye_bone_leglower_left
+    400082: skye_bone_leglower_right
+    400084: skye_bone_legupper_left
+    400086: skye_bone_legupper_right
+    400088: skye_bone_neck1
+    400090: skye_bone_neck2
+    400092: skye_bone_shoulder_left
+    400094: skye_bone_shoulder_right
+    400096: skye_bone_tail1
+    400098: skye_bone_tail2
+    400100: skye_bone_tail3
+    400102: skye_bone_tail4
+    400104: skye_bone_waist
+    400106: skye_bone_wing1-1_left
+    400108: skye_bone_wing1-1_right
+    400110: skye_bone_wing1-2_left
+    400112: skye_bone_wing1-2_right
+    400114: skye_bone_wing1-3_left
+    400116: skye_bone_wing1-3_right
+    400118: skye_bone_wing2-1_left
+    400120: skye_bone_wing2-1_right
+    400122: skye_bone_wing2-2_left
+    400124: skye_bone_wing2-3_left
+    400126: skye_bone_wing2-3_right
+    400128: skye_bone_wing3-1_left
+    400130: skye_bone_wing3-1_right
+    400132: skye_bone_wing3-2_left
+    400134: skye_bone_wing3-2_right
+    400136: skye_bone_wing3-3_left
+    400138: skye_bone_wing3-3_right
+    400140: skye_bone_wing_2-2_right
+    400142: skye_bone_winghand_left
+    400144: skye_bone_winghand_right
+    400146: skye_bone_winglower_left
+    400148: skye_bone_winglower_right
+    400150: skye_bone_wingupper_left
+    400152: skye_bone_wingupper_right
+    400154: skye_control_chest
+    400156: skye_control_elbowleft
+    400158: skye_control_elbowright
+    400160: skye_control_footleft
+    400162: skye_control_footpawleft
+    400164: skye_control_footpawright
+    400166: skye_control_footright
+    400168: skye_control_handleft
+    400170: skye_control_handpawleft
+    400172: skye_control_handpawright
+    400174: skye_control_handright
+    400176: skye_control_head
+    400178: skye_control_heelleft
+    400180: skye_control_heelright
+    400182: skye_control_hips
+    400184: skye_control_kneeleft
+    400186: skye_control_kneeright
+    400188: skye_control_neck
+    400190: skye_control_tail1
+    400192: skye_control_tail2
+    400194: skye_control_tail3
+    400196: skye_control_wing1left
+    400198: skye_control_wing1right
+    400200: skye_control_wing2left
+    400202: skye_control_wing2right
+    400204: skye_control_wing3left
+    400206: skye_control_wing3right
+    400208: skye_control_wingelbowleft
+    400210: skye_control_wingelbowright
+    400212: skye_control_wingleft
+    400214: skye_control_wingright
+    400216: skye_rootbone
+    400218: skyebody
+    4300000: skyebody
+    4300002: Object001
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Object001
+    13700002: skyebody
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Take 001
+      takeName: Take 001
+      firstFrame: 26
+      lastFrame: 104
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 0
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: skye_rootbone
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 
